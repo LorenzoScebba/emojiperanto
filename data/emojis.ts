@@ -34,6 +34,34 @@ const data = [
     title: ":man_mechanic: :snowflake:",
     description: "Just testing, please chill",
   },
+  {
+    emoji: "🤷‍♂️",
+    title: ":man_shrugging:",
+    description: "I don't know what is going on.",
+    background: "#b9b9b9",
+  },
+  {
+    emoji: "🙏🆘",
+    title: ":pray: :sos:",
+    description: "God, I need some help",
+  },
+  {
+    emoji: "🐛😡",
+    title: ":bug: :rage:",
+    description: "There is a bug in the code, fuck sake.",
+    background: "#b9b9b9",
+  },
+  {
+    emoji: "🔇️",
+    title: ":mute:",
+    description: "Not an issue, suppressed.",
+  },
+  {
+    emoji: "💸",
+    title: ":money_with_wings:",
+    description: "Pay me and i'll fix the issue.",
+    background: "#b9b9b9",
+  },
 ] as Emoji[];
 
 export default data;
