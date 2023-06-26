@@ -22,7 +22,16 @@ const Header = () => {
         >
           Github
         </Button>
-        <Button>Contributors</Button>
+        <Button
+          onClick={() => {
+            window.open(
+              "https://github.com/LorenzoScebba/emojiperanto/blob/master/CONTRIBUTORS.md",
+              "_blank"
+            );
+          }}
+        >
+          Contributors
+        </Button>
       </div>
     </header>
   );
