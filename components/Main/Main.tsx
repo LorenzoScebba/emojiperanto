@@ -18,7 +18,7 @@ const Main = () => {
               d.description.toLowerCase().includes(filter.toLowerCase())
           )
           .map((d) => (
-            <Emoji {...d} />
+            <Emoji key={d.title} {...d} />
           ))}
       </div>
     </main>
