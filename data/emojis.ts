@@ -1,5 +1,6 @@
 export interface Emoji {
   emoji: string;
+  title: string;
   description: string;
   background?: string;
 }
@@ -7,75 +8,31 @@ export interface Emoji {
 const data = [
   {
     emoji: "👀",
+    title: ":eyes:",
     description: "Checking...",
     background: "#b9b9b9",
   },
   {
     emoji: "✔️",
+    title: ":check_mark:",
     description: "Issue resolved!",
   },
   {
-    emoji: "👀",
-    description: "Checking...",
+    emoji: "💩",
+    title: ":poo:",
+    description: "Wtf is this shit",
     background: "#b9b9b9",
   },
   {
-    emoji: "✔️",
-    description: "Issue resolved!",
+    emoji: "👨‍🔧❄️",
+    title: ":man_mechanic: :snowflake:",
+    description: "Just testing, please chill",
   },
   {
-    emoji: "👀",
-    description: "Checking...",
+    emoji: "🐌",
+    title: ":snail:",
+    description: "Process is taking a while...",
     background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
-  },
-  {
-    emoji: "👀",
-    description: "Checking...",
-    background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
-  },
-  {
-    emoji: "👀",
-    description: "Checking...",
-    background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
-  },
-  {
-    emoji: "👀",
-    description: "Checking...",
-    background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
-  },
-  {
-    emoji: "👀",
-    description: "Checking...",
-    background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
-  },
-  {
-    emoji: "👀",
-    description: "Checking...",
-    background: "#b9b9b9",
-  },
-  {
-    emoji: "✔️",
-    description: "Issue resolved!",
   },
 ] as Emoji[];
 
