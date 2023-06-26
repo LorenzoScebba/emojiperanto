@@ -1,0 +1,8 @@
+/* a simple grid with some padding, it should fit items based on the item width */
+.main {
+    display: flex;
+    gap: 32px;
+    padding: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

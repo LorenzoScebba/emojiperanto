@@ -1,0 +1,26 @@
+.emoji {
+    display: flex;
+    background: var(--primary);
+    width: 312px;
+}
+
+.emojiIcon {
+    display: grid;
+    place-content: center;
+    font-size: 48px;
+    padding: 32px;
+}
+
+.text {
+    padding: 16px;
+}
+
+.text > div:first-of-type {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.text > div:last-of-type {
+    font-size: 18px;
+}

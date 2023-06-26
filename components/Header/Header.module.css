@@ -1,0 +1,24 @@
+.header {
+    display: grid;
+    place-content: center;
+    height: 300px;
+    background: var(--primary);
+    color: var(--text);
+    font-size: 48px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.subtitle {
+    margin-bottom: 32px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
