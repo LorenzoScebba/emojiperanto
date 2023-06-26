@@ -12,7 +12,7 @@ const Emoji = (props: Emoji) => {
         {props.emoji}
       </div>
       <div className={styles.text}>
-        <div>:art:</div>
+        <div>{props.title}</div>
         <div>{props.description}</div>
       </div>
     </div>

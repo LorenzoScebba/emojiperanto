@@ -1,7 +1,7 @@
 .header {
     display: grid;
     place-content: center;
-    height: 300px;
+    height: var(--header-height);
     background: var(--primary);
     color: var(--text);
     font-size: 48px;

@@ -1,12 +1,16 @@
 .main {
+    --padding-x: 128px;
+    --padding-y: 64px;
+
     background: #101010;
-    padding: 64px;
+    padding: var(--padding-y) var(--padding-x);
+    min-height: calc(100dvh - var(--header-height) - var(--padding-y) * 2);
 }
 
 .input {
     outline: none;
     border: none;
-    padding: 8px;
+    padding: 12px;
     margin-top: 16px;
     margin-bottom: 16px;
     margin-left: auto;
@@ -16,5 +20,5 @@
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }

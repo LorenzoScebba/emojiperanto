@@ -1,7 +1,7 @@
 .emoji {
     display: flex;
     background: var(--primary);
-    min-width: 312px;
+    min-width: 340px;
 }
 
 .emojiIcon {

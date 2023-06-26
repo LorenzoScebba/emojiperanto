@@ -9,6 +9,8 @@ html {
   --primary: #e6e3ad;
   --secondary: #fddee5;
   --accent: #f03863;
+
+  --header-height: 300px;
 }
 
 html, body, div, span, applet, object, iframe,

@@ -9,7 +9,12 @@ const Main = () => {
   const [filter, setFilter] = useState("");
   return (
     <main className={styles.main}>
-      <input className={styles.input} type={"text"} />
+      <input
+        className={styles.input}
+        type={"text"}
+        placeholder={"Search concept"}
+        onChange={(ev) => setFilter(ev.currentTarget.value)}
+      />
       <div className={styles.flexer}>
         {data
           .filter(

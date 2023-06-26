@@ -9,7 +9,7 @@ const data = [
   {
     emoji: "👀",
     title: ":eyes:",
-    description: "Checking...",
+    description: "Checking issue..",
     background: "#b9b9b9",
   },
   {
@@ -20,19 +20,19 @@ const data = [
   {
     emoji: "💩",
     title: ":poo:",
-    description: "Wtf is this shit",
+    description: "Wtf is this shit?!",
+    background: "#b9b9b9",
+  },
+  {
+    emoji: "🐌",
+    title: ":snail:",
+    description: "Woah this is slow...",
     background: "#b9b9b9",
   },
   {
     emoji: "👨‍🔧❄️",
     title: ":man_mechanic: :snowflake:",
     description: "Just testing, please chill",
-  },
-  {
-    emoji: "🐌",
-    title: ":snail:",
-    description: "Process is taking a while...",
-    background: "#b9b9b9",
   },
 ] as Emoji[];
 
