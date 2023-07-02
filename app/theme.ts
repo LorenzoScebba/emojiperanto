@@ -3,6 +3,8 @@
 import { createTheme } from "@mantine/core";
 
 const theme = createTheme({
+  fontFamily:
+    "--apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
   components: {
     Button: {
       styles: {
