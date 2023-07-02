@@ -2,32 +2,28 @@ export interface Emoji {
   emoji: string;
   title: string;
   description: string;
-  background?: string;
 }
 
 const data = [
   {
     emoji: "👀",
     title: ":eyes:",
-    description: "Checking issue..",
-    background: "#b9b9b9",
+    description: "Vigilantly observing...",
   },
   {
     emoji: "✔️",
     title: ":check_mark:",
-    description: "Issue resolved!",
+    description: "Marking it as done.",
   },
   {
     emoji: "💩",
     title: ":poo:",
     description: "Wtf is this shit?!",
-    background: "#b9b9b9",
   },
   {
     emoji: "🐌",
     title: ":snail:",
-    description: "Woah this is slow...",
-    background: "#b9b9b9",
+    description: "Unbearably slow progress...",
   },
   {
     emoji: "👨‍🔧❄️",
@@ -38,7 +34,6 @@ const data = [
     emoji: "🤷‍♂️",
     title: ":man_shrugging:",
     description: "I don't know what is going on.",
-    background: "#b9b9b9",
   },
   {
     emoji: "🙏🆘",
@@ -49,18 +44,38 @@ const data = [
     emoji: "🐛😡",
     title: ":bug: :rage:",
     description: "There is a bug in the code, fuck sake.",
-    background: "#b9b9b9",
   },
   {
     emoji: "🔇️",
     title: ":mute:",
-    description: "Not an issue, suppressed.",
+    description: "Muted and suppressed.",
   },
   {
-    emoji: "💸",
-    title: ":money_with_wings:",
-    description: "Pay me and i'll fix the issue.",
-    background: "#b9b9b9",
+    emoji: "💸🔧",
+    title: ":money_with_wings: :wrench:",
+    description: "Pay me and I'll fix the issue.",
+  },
+  {
+    emoji: "🤣🍑📤",
+    title: ":joy: :peach: :outbox_tray:",
+    description: "Laughing my ass off",
+  },
+  {
+    emoji: "🗡",
+    title: ":dagger:",
+    description: "Kill me please",
+  },
+  {
+    emoji: "🙏🥳☠️🙎‍♂️💩",
+    title:
+      ":pray: :partying_face: :skull_and_crossbones: :man_facepalming: :poop:",
+    description:
+      "Please, I would be so happy if you could kill that human piece of shit",
+  },
+  {
+    emoji: "🔢🥩",
+    title: ":1234: :cut_of_meat:",
+    description: "All of this happened in a second",
   },
 ] as Emoji[];
 

@@ -1,23 +1,26 @@
-.main {
-    --padding-x: 128px;
-    --padding-y: 64px;
+@import "../../app/cm.module.css";
 
-    background: #101010;
+.main {
+    --padding-x: 6px;
+    --padding-y: 4px;
+
+    @media(--from-320-viewport) {
+        --padding-x: 12px;
+        --padding-y: 8px;
+    }
+
+    @media(--from-375-viewport) {
+        --padding-x: 18px;
+        --padding-y: 12px;
+    }
+
+    background: var(--mantine-color-dark-9);
     padding: var(--padding-y) var(--padding-x);
     min-height: calc(100dvh - var(--header-height) - var(--padding-y) * 2);
 }
 
-.input {
-    outline: none;
-    border: none;
-    padding: 12px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: auto;
-}
-
-.flexer {
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
+.autogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--emoji-card-min-width), 1fr));
+    grid-gap: 32px;
 }

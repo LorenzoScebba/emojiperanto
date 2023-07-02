@@ -1,11 +1,37 @@
+@import "../../app/cm.module.css";
+
 .header {
     display: grid;
     place-content: center;
     height: var(--header-height);
-    background: var(--primary);
-    color: var(--text);
-    font-size: 48px;
+    background: var(--mantine-color-yellow-2);
+    color: var(--mantine-color-black);
+    font-size: 18px;
     text-align: center;
+
+    @media(--from-320-viewport) {
+        font-size: 24px;
+    }
+
+    @media(--from-375-viewport) {
+        font-size: 28px;
+    }
+
+    @media(--from-425-viewport) {
+        font-size: 32px;
+    }
+
+    @media(--from-768-viewport) {
+        font-size: 38px;
+    }
+
+    @media(--from-1024-viewport) {
+        font-size: 42px;
+    }
+
+    @media(--from-1440-viewport) {
+        font-size: 48px;
+    }
 }
 
 .title {
@@ -15,6 +41,7 @@
 
 .subtitle {
     margin-bottom: 32px;
+    padding: 0 16px;
 }
 
 .buttons {

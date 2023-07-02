@@ -4,13 +4,8 @@
 */
 
 html {
-  --text: #0c0a1f;
-  --background: #fbfbfe;
-  --primary: #e6e3ad;
-  --secondary: #fddee5;
-  --accent: #f03863;
-
-  --header-height: 300px;
+  --header-height: 332px;
+  --emoji-card-min-width: 240px;
 }
 
 html, body, div, span, applet, object, iframe,

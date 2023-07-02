@@ -4,18 +4,21 @@ import React, { useState } from "react";
 import data from "@/data/emojis";
 import styles from "./Main.module.css";
 import Emoji from "@/components/Emoji/Emoji";
+import { Box, TextInput } from "@mantine/core";
+import { IconSearch } from "@tabler/icons-react";
 
 const Main = () => {
   const [filter, setFilter] = useState("");
   return (
-    <main className={styles.main}>
-      <input
-        className={styles.input}
+    <Box component={"main"} className={styles.main}>
+      <TextInput
+        mb={16}
+        leftSection={<IconSearch />}
         type={"text"}
         placeholder={"Search concept"}
         onChange={(ev) => setFilter(ev.currentTarget.value)}
       />
-      <div className={styles.flexer}>
+      <Box className={styles.autogrid}>
         {data
           .filter(
             (d) =>
@@ -25,8 +28,8 @@ const Main = () => {
           .map((d) => (
             <Emoji key={d.title} {...d} />
           ))}
-      </div>
-    </main>
+      </Box>
+    </Box>
   );
 };
 

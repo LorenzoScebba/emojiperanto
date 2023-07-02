@@ -1,5 +1,11 @@
-import "./globals.css";
+import React from "react";
 import { Inter } from "next/font/google";
+import { MantineProvider, ColorSchemeScript } from "@mantine/core";
+import "./globals.css";
+import "@mantine/core/styles.css";
+import theme from "@/app/theme";
+import { Notifications } from "@mantine/notifications";
+import "@mantine/notifications/styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +21,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+        <ColorSchemeScript />
+      </head>
+      <body>
+        <MantineProvider theme={theme}>
+          <Notifications />
+          {children}
+        </MantineProvider>
+      </body>
     </html>
   );
 }
