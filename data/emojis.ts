@@ -66,9 +66,9 @@ const data = [
     description: "Kill me please",
   },
   {
-    emoji: "🙏🥳☠️🙎‍♂️💩",
+    emoji: "🙏🥳☠️🙎💩",
     title:
-      ":pray: :partying_face: :skull_and_crossbones: :man_facepalming: :poop:",
+      ":pray: :partying_face: :skull_and_crossbones: :person_bowing: :poop:",
     description:
       "Please, I would be so happy if you could kill that human piece of shit",
   },
@@ -76,6 +76,11 @@ const data = [
     emoji: "🔢🥩",
     title: ":1234: :cut_of_meat:",
     description: "All of this happened in a second",
+  },
+  {
+    emoji: "🚫🐛✨",
+    title: ":no_entry_sign: :bug: :sparkles:",
+    description: "It's not a bug, it's a feature"
   },
 ] as Emoji[];
 
