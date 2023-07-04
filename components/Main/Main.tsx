@@ -22,6 +22,7 @@ const Main = () => {
         {data
           .filter(
             (d) =>
+              d.emoji.includes(filter) ||
               d.title.toLowerCase().includes(filter.toLowerCase()) ||
               d.description.toLowerCase().includes(filter.toLowerCase())
           )

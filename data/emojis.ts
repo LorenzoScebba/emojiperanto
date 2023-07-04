@@ -80,7 +80,22 @@ const data = [
   {
     emoji: "🚫🐛✨",
     title: ":no_entry_sign: :bug: :sparkles:",
-    description: "It's not a bug, it's a feature"
+    description: "It's not a bug, it's a feature",
+  },
+  {
+    emoji: "🌬️❔",
+    title: ":wind_face: :grey_question:",
+    description: "Bless you, I guess.",
+  },
+  {
+    emoji: "✂️👐",
+    title: ":scissors: :open_hands:",
+    description: "I will cut your fingers",
+  },
+  {
+    emoji: "🤦",
+    title: ":facepalm:",
+    description: "What a terrible failure.",
   },
 ] as Emoji[];
 
