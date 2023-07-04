@@ -9,3 +9,19 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      next: 
+        patterns:
+          - "next"
+          - "eslint-config-next"
+      mantine:
+        patterns:
+          - "@mantine*"
+      react:
+        patterns:
+          - "react*"
+      dev-dependencies:
+        patterns:
+          - "postcss*"
+          - "prettier*"
+          - "@types*"
