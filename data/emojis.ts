@@ -1,4 +1,4 @@
-export interface Emoji {
+export interface IEmoji {
   emoji: string;
   title: string;
   description: string;
@@ -97,6 +97,6 @@ const data = [
     title: ":facepalm:",
     description: "What a terrible failure.",
   },
-] as Emoji[];
+] as IEmoji[];
 
 export default data;

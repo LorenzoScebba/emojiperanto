@@ -1,17 +1,25 @@
 import React from "react";
-import { Emoji } from "@/data/emojis";
+import { IEmoji } from "@/data/emojis";
 import styles from "./Emoji.module.css";
 import { Box, CopyButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 
-const Emoji = (props: Emoji) => {
+interface EmojiProps extends IEmoji {
+  showShortcode?: boolean;
+}
+
+const Emoji = (props: EmojiProps) => {
   const copyAndShowNotification = (copy: () => void) => {
     copy();
     notifications.show({
       title: `Emoji ${props.emoji} copied!`,
       message: `You can now paste it anywhere!`,
-      color: "transparent",
+      color: "blue",
       autoClose: 3000,
+      withBorder: true,
+      classNames: {
+        root: styles.notification,
+      },
     });
   };
 
@@ -28,7 +36,9 @@ const Emoji = (props: Emoji) => {
         )}
       </CopyButton>
       <Box className={styles.texts}>
-        <Box className={styles.title}>{props.title}</Box>
+        {props.showShortcode && (
+          <Box className={styles.title}>{props.title}</Box>
+        )}
         <Box className={styles.description}>{props.description}</Box>
       </Box>
     </Box>
