@@ -4,15 +4,38 @@ import React, { useState } from "react";
 import data from "@/data/emojis";
 import styles from "./Main.module.css";
 import Emoji from "@/components/Emoji/Emoji";
-import { Box, Group, Switch, TextInput, Select } from "@mantine/core";
+import {
+  Box,
+  Group,
+  Select,
+  Switch,
+  TextInput,
+  Text,
+  Stack,
+} from "@mantine/core";
 import { IconSearch } from "@tabler/icons-react";
-import { useLocalStorage } from "@mantine/hooks";
+import get from "lodash.get";
+import Image from "next/image";
 
 const Main = () => {
   const [language, setLanguage] = useState("en");
   const [enableShortcodes, setEnableShortcodes] = useState(false);
   const [filter, setFilter] = useState("");
 
+  const dataFiltered = data.filter((d) => {
+    const emoji = get(d, `translations.${language}.emoji`, d.emoji);
+    const title = get(d, `translations.${language}.title`, d.title);
+    const description = get(
+      d,
+      `translations.${language}.description`,
+      d.description
+    );
+    return (
+      emoji.includes(filter) ||
+      title.toLowerCase().includes(filter.toLowerCase()) ||
+      description.toLowerCase().includes(filter.toLowerCase())
+    );
+  });
   return (
     <Box component={"main"} className={styles.main}>
       <Group justify="flex-end" mb={8}>
@@ -61,23 +84,32 @@ const Main = () => {
         placeholder={"Search concept"}
         onChange={(ev) => setFilter(ev.currentTarget.value)}
       />
-      <Box className={styles.autogrid}>
-        {data
-          .filter(
-            (d) =>
-              d.emoji.includes(filter) ||
-              d.title.toLowerCase().includes(filter.toLowerCase()) ||
-              d.description.toLowerCase().includes(filter.toLowerCase())
-          )
-          .map((d) => (
-            <Emoji
-              key={d.title}
-              showShortcode={enableShortcodes}
-              language={language}
-              {...d}
-            />
-          ))}
-      </Box>
+
+      {dataFiltered.length > 0 ? (
+        <>
+          <Box className={styles.autogrid}>
+            {dataFiltered.map((d) => (
+              <Emoji
+                key={d.id}
+                showShortcode={enableShortcodes}
+                language={language}
+                {...d}
+              />
+            ))}
+          </Box>
+        </>
+      ) : (
+        <Stack className={styles.centered}>
+          <Text>No results found</Text>
+          <Text>Try to change language or search term</Text>
+          <Image
+            width={300}
+            height={300}
+            src={"https://source.unsplash.com/random/300x300?kitten"}
+            alt={"kitten"}
+          />
+        </Stack>
+      )}
     </Box>
   );
 };
