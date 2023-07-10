@@ -53,24 +53,38 @@ const Main = () => {
           placeholder="Language"
           data={[
             {
-              value: "en",
-              label: "English",
+              group: "Real languages",
+              items: [
+                {
+                  value: "en",
+                  label: "English",
+                },
+                {
+                  value: "it",
+                  label: "Italian",
+                },
+                {
+                  value: "de",
+                  label: "Deutsch",
+                },
+                {
+                  value: "fr",
+                  label: "French",
+                },
+                {
+                  value: "es",
+                  label: "Spanish",
+                },
+              ],
             },
             {
-              value: "it",
-              label: "Italian",
-            },
-            {
-              value: "de",
-              label: "Deutsch",
-            },
-            {
-              value: "fr",
-              label: "French",
-            },
-            {
-              value: "es",
-              label: "Spanish",
+              group: "Wtf languages",
+              items: [
+                {
+                  value: "it_ts",
+                  label: "Italian (Tuscan)",
+                },
+              ],
             },
           ]}
           value={language}
