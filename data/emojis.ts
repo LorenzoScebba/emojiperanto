@@ -97,6 +97,11 @@ const data = [
     title: ":facepalm:",
     description: "What a terrible failure.",
   },
+  {
+    emoji: "🥅♂️😇❤️",
+    title: ":goal: :male_sign: :innocent: :heart:",
+    description: "I carry god in my heart.",
+  },
 ] as IEmoji[];
 
 export default data;
