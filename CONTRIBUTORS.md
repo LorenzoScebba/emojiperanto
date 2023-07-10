@@ -5,6 +5,7 @@
 - Lorenzo Scebba ([Github](https://github.com/LorenzoScebba))
 - Damiano S. ([Github](https://github.com/PiDayDev))
 - Manuel Bonini
+- Matteo Bianchi
 
 ### People that contributed to the emojies
 
