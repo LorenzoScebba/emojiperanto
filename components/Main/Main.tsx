@@ -45,7 +45,7 @@ const Main = () => {
           size="md"
           onLabel="ON"
           offLabel="OFF"
-          label="Shorcodes"
+          label="Shortcodes"
           labelPosition={"left"}
         />
         <Select
