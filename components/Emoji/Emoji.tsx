@@ -3,9 +3,11 @@ import { IEmoji } from "@/data/emojis";
 import styles from "./Emoji.module.css";
 import { Box, CopyButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
+import get from "lodash.get";
 
 interface EmojiProps extends IEmoji {
   showShortcode?: boolean;
+  language: string;
 }
 
 const Emoji = (props: EmojiProps) => {
@@ -23,23 +25,29 @@ const Emoji = (props: EmojiProps) => {
     });
   };
 
+  const emoji = get(props, `translations.${props.language}.emoji`, props.emoji);
+  const title = get(props, `translations.${props.language}.title`, props.title);
+  const description = get(
+    props,
+    `translations.${props.language}.description`,
+    props.description
+  );
+
   return (
     <Box className={styles.emoji}>
-      <CopyButton value={props.emoji}>
+      <CopyButton value={emoji}>
         {({ copied, copy }) => (
           <Box
             onClick={() => copyAndShowNotification(copy)}
             className={styles.emojiIcon}
           >
-            {props.emoji}
+            {emoji}
           </Box>
         )}
       </CopyButton>
       <Box className={styles.texts}>
-        {props.showShortcode && (
-          <Box className={styles.title}>{props.title}</Box>
-        )}
-        <Box className={styles.description}>{props.description}</Box>
+        {props.showShortcode && <Box className={styles.title}>{title}</Box>}
+        <Box className={styles.description}>{description}</Box>
       </Box>
     </Box>
   );

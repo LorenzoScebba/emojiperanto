@@ -31,7 +31,7 @@ export default function RootLayout({
         ></link>
       </head>
       <body>
-        <MantineProvider theme={theme}>
+        <MantineProvider theme={theme} defaultColorScheme={"dark"}>
           <Notifications />
           {children}
         </MantineProvider>
