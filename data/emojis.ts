@@ -1,14 +1,27 @@
 export interface IEmoji {
+  id?: string;
   emoji: string;
   title: string;
   description: string;
+  translations?: {
+    [key: string]: {
+      emoji?: string;
+      title?: string;
+      description?: string;
+    };
+  };
 }
 
-const data = [
+const data: IEmoji[] = [
   {
     emoji: "👀",
     title: ":eyes:",
     description: "Vigilantly observing...",
+    translations: {
+      it: {
+        description: "Sto dando un'occhiata...",
+      },
+    },
   },
   {
     emoji: "✔️",
@@ -102,6 +115,6 @@ const data = [
     title: ":goal: :male_sign: :innocent: :heart:",
     description: "I carry god in my heart.",
   },
-] as IEmoji[];
+];
 
 export default data;
