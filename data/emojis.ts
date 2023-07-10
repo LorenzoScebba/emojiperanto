@@ -22,6 +22,15 @@ const data: IEmoji[] = [
       it: {
         description: "Sto dando un'occhiata...",
       },
+      de: {
+        description: "Wachsam beobachten...",
+      },
+      fr: {
+        description: "Observer attentivement...",
+      },
+      es: {
+        description: "Observando atentamente...",
+      },
     },
   },
   {
@@ -32,6 +41,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Fatto e finito!",
+      },
+      de: {
+        description: "Als erledigt markieren.",
+      },
+      fr: {
+        description: "Marquer comme fait.",
+      },
+      es: {
+        description: "Marcar como hecho.",
       },
     },
   },
@@ -44,6 +62,15 @@ const data: IEmoji[] = [
       it: {
         description: "Ma che merda è sta roba?!",
       },
+      de: {
+        description: "Was zur Hölle ist das?!",
+      },
+      fr: {
+        description: "Qu'est-ce que c'est que cette merde ?!",
+      },
+      es: {
+        description: "¡Qué mierda es esta?!",
+      },
     },
   },
   {
@@ -54,6 +81,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Un vegetale è più veloce di questa roba.",
+      },
+      de: {
+        description: "Ein Gemüse ist schneller als das.",
+      },
+      fr: {
+        description: "Un légume est plus rapide que ça.",
+      },
+      es: {
+        description: "Una verdura es más rápida que esto.",
       },
     },
   },
@@ -68,6 +104,21 @@ const data: IEmoji[] = [
         title: ":man_mechanic: :sloth:",
         description: "Sto testando, calmi tutti",
       },
+      de: {
+        emoji: "👨‍🔧🦥",
+        title: ":man_mechanic: :sloth:",
+        description: "Nur ein Test, bitte entspannen",
+      },
+      fr: {
+        emoji: "👨‍🔧🦥",
+        title: ":man_mechanic: :sloth:",
+        description: "Juste un test, détendez-vous",
+      },
+      es: {
+        emoji: "👨‍🔧🦥",
+        title: ":man_mechanic: :sloth:",
+        description: "Solo probando, por favor, relájate",
+      },
     },
   },
   {
@@ -79,6 +130,15 @@ const data: IEmoji[] = [
       it: {
         description: "Non so che sta a succedere.",
       },
+      de: {
+        description: "Ich weiß nicht, was los ist.",
+      },
+      fr: {
+        description: "Je ne sais pas ce qui se passe.",
+      },
+      es: {
+        description: "No sé qué está pasando.",
+      },
     },
   },
   {
@@ -89,6 +149,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Dio, aiutami tu",
+      },
+      de: {
+        description: "Gott, ich brauche Hilfe",
+      },
+      fr: {
+        description: "Mon Dieu, j'ai besoin d'aide",
+      },
+      es: {
+        description: "Dios, necesito ayuda",
       },
     },
   },
@@ -103,6 +172,21 @@ const data: IEmoji[] = [
         title: ":rage: :bug:",
         description: "Ma che cazzo, c'è un bug nel codice.",
       },
+      de: {
+        emoji: "🐛😡",
+        title: ":rage: :bug:",
+        description: "Da ist ein Bug im Code, verdammt nochmal.",
+      },
+      fr: {
+        emoji: "🐛😡",
+        title: ":rage: :bug:",
+        description: "Il y a un bug dans le code, bordel.",
+      },
+      es: {
+        emoji: "🐛😡",
+        title: ":rage: :bug:",
+        description: "Hay un bug en el código, maldición.",
+      },
     },
   },
   {
@@ -113,6 +197,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Mutato e soppresso",
+      },
+      de: {
+        description: "Stummgeschaltet und unterdrückt.",
+      },
+      fr: {
+        description: "Muet et réprimé.",
+      },
+      es: {
+        description: "Silenciado y suprimido.",
       },
     },
   },
@@ -125,6 +218,15 @@ const data: IEmoji[] = [
       it: {
         description: "Pagami e sistemo il problema",
       },
+      de: {
+        description: "Bezahle mich und ich werde das Problem beheben.",
+      },
+      fr: {
+        description: "Payez-moi et je réglerai le problème.",
+      },
+      es: {
+        description: "Págame y solucionaré el problema.",
+      },
     },
   },
   {
@@ -136,6 +238,15 @@ const data: IEmoji[] = [
       it: {
         description: "Sto ridendo a crepapelle",
       },
+      de: {
+        description: "Ich lache mich kaputt",
+      },
+      fr: {
+        description: "Je me plie en quatre de rire",
+      },
+      es: {
+        description: "Me parto de risa",
+      },
     },
   },
   {
@@ -145,7 +256,16 @@ const data: IEmoji[] = [
     description: "Kill me please",
     translations: {
       it: {
-        description: "Uccidetemi perfavore.",
+        description: "Uccidetemi per favore.",
+      },
+      de: {
+        description: "Töte mich bitte",
+      },
+      fr: {
+        description: "Tuez-moi s'il vous plaît",
+      },
+      es: {
+        description: "Mátame por favor",
       },
     },
   },
@@ -158,7 +278,20 @@ const data: IEmoji[] = [
       "Please, I would be so happy if you could kill that human piece of shit",
     translations: {
       it: {
-        description: "Uccidetemi perfavore.",
+        description:
+          "Per favore, sarei così felice se potessi uccidere quella merda di essere umano.",
+      },
+      de: {
+        description:
+          "Bitte, ich wäre so glücklich, wenn du dieses menschliche Stück Scheiße töten könntest.",
+      },
+      fr: {
+        description:
+          "S'il vous plaît, je serais tellement heureux si vous pouviez tuer cette merde humaine.",
+      },
+      es: {
+        description:
+          "Por favor, estaría tan feliz si pudieras matar a ese pedazo de mierda humana.",
       },
     },
   },
@@ -171,6 +304,15 @@ const data: IEmoji[] = [
       it: {
         description: "Tutto questo in un secondo",
       },
+      de: {
+        description: "Das alles passierte in einer Sekunde",
+      },
+      fr: {
+        description: "Tout cela s'est passé en une seconde",
+      },
+      es: {
+        description: "Todo esto sucedió en un segundo",
+      },
     },
   },
   {
@@ -181,6 +323,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Non è un bug, è una feature",
+      },
+      de: {
+        description: "Es ist kein Bug, es ist ein Feature",
+      },
+      fr: {
+        description: "Ce n'est pas un bug, c'est une fonctionnalité",
+      },
+      es: {
+        description: "No es un bug, es una característica",
       },
     },
   },
@@ -193,6 +344,15 @@ const data: IEmoji[] = [
       it: {
         description: "Salute, immagino",
       },
+      de: {
+        description: "Gesundheit, nehme ich an.",
+      },
+      fr: {
+        description: "À tes souhaits, je suppose.",
+      },
+      es: {
+        description: "Salud, supongo.",
+      },
     },
   },
   {
@@ -204,6 +364,15 @@ const data: IEmoji[] = [
       it: {
         description: "Ti taglio le dita.",
       },
+      de: {
+        description: "Ich werde dir die Finger abschneiden",
+      },
+      fr: {
+        description: "Je vais te couper les doigts",
+      },
+      es: {
+        description: "Te cortaré los dedos",
+      },
     },
   },
   {
@@ -214,6 +383,15 @@ const data: IEmoji[] = [
     translations: {
       it: {
         description: "Che fail.",
+      },
+      de: {
+        description: "Was für ein schrecklicher Misserfolg.",
+      },
+      fr: {
+        description: "Quelle terrible défaillance.",
+      },
+      es: {
+        description: "Qué fracaso tan terrible.",
       },
     },
   },
@@ -227,6 +405,21 @@ const data: IEmoji[] = [
         emoji: "🥅♂️😇❤️",
         title: ":goal: :male_sign: :innocent: :heart:",
         description: "Porto dio nel cuore",
+      },
+      de: {
+        emoji: "💁👜😇❤️",
+        title: ":goal: :male_sign: :innocent: :heart:",
+        description: "Ich trage Gott in meinem Herzen.",
+      },
+      fr: {
+        emoji: "💁👜😇❤️",
+        title: ":goal: :male_sign: :innocent: :heart:",
+        description: "Je porte Dieu dans mon cœur.",
+      },
+      es: {
+        emoji: "💁👜😇❤️",
+        title: ":goal: :male_sign: :innocent: :heart:",
+        description: "Llevo a Dios en mi corazón.",
       },
     },
   },
