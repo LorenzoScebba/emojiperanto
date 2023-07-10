@@ -30,7 +30,7 @@ const Emoji = (props: EmojiProps) => {
   const description = get(
     props,
     `translations.${props.language}.description`,
-    props.description
+    props.description,
   );
 
   return (

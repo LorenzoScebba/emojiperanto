@@ -28,7 +28,7 @@ const Main = () => {
     const description = get(
       d,
       `translations.${language}.description`,
-      d.description
+      d.description,
     );
     return (
       emoji.includes(filter) ||

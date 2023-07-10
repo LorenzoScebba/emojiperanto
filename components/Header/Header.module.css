@@ -9,27 +9,27 @@
     font-size: 18px;
     text-align: center;
 
-    @media(--from-320-viewport) {
+    @media (--from-320-viewport) {
         font-size: 24px;
     }
 
-    @media(--from-375-viewport) {
+    @media (--from-375-viewport) {
         font-size: 28px;
     }
 
-    @media(--from-425-viewport) {
+    @media (--from-425-viewport) {
         font-size: 32px;
     }
 
-    @media(--from-768-viewport) {
+    @media (--from-768-viewport) {
         font-size: 38px;
     }
 
-    @media(--from-1024-viewport) {
+    @media (--from-1024-viewport) {
         font-size: 42px;
     }
 
-    @media(--from-1440-viewport) {
+    @media (--from-1440-viewport) {
         font-size: 48px;
     }
 }
