@@ -31,6 +31,9 @@ const data: IEmoji[] = [
       es: {
         description: "Observando atentamente...",
       },
+      it_ts: {
+        description: "A darò n'ucchiada...",
+      },
     },
   },
   {
@@ -50,6 +53,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Marcar como hecho.",
+      },
+      it_ts: {
+        description: "Ho f'ní",
       },
     },
   },
@@ -71,6 +77,9 @@ const data: IEmoji[] = [
       es: {
         description: "¡Qué mierda es esta?!",
       },
+      it_ts: {
+        description: "Sta cosa la fa schifu",
+      },
     },
   },
   {
@@ -90,6 +99,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Una verdura es más rápida que esto.",
+      },
+      it_ts: {
+        description: "N cioccu l'é plu sveltu",
       },
     },
   },
@@ -119,6 +131,11 @@ const data: IEmoji[] = [
         title: ":man_mechanic: :sloth:",
         description: "Solo probando, por favor, relájate",
       },
+      it_ts: {
+        emoji: "🦥👨‍🔧",
+        title: ":sloth: :man_mechanic:",
+        description: "Ste tranquìì, che provava solamentu"
+      }
     },
   },
   {
@@ -139,6 +156,9 @@ const data: IEmoji[] = [
       es: {
         description: "No sé qué está pasando.",
       },
+      it_ts: {
+        description: "Ansò cumalè",
+      },
     },
   },
   {
@@ -158,6 +178,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Dios, necesito ayuda",
+      },
+      it_ts: {
+        description: "Oh Dio pensug tè",
       },
     },
   },
@@ -187,6 +210,9 @@ const data: IEmoji[] = [
         title: ":rage: :bug:",
         description: "Hay un bug en el código, maldición.",
       },
+      it_ts: {
+        description: "A ghe stà un guai, cazzo",
+      },
     },
   },
   {
@@ -206,6 +232,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Silenciado y suprimido.",
+      },
+      it_ts: {
+        description: "Zittii e arpiattà",
       },
     },
   },
@@ -227,6 +256,9 @@ const data: IEmoji[] = [
       es: {
         description: "Págame y solucionaré el problema.",
       },
+      it_ts: {
+        description: "Basta che tmà pagu e tla ranghiu",
+      },
     },
   },
   {
@@ -247,6 +279,9 @@ const data: IEmoji[] = [
       es: {
         description: "Me parto de risa",
       },
+      it_ts: {
+        description: "Murir da u ridr",
+      },
     },
   },
   {
@@ -266,6 +301,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Mátame por favor",
+      },
+      it_ts: {
+        description: "Puttost mazzemu",
       },
     },
   },
@@ -293,6 +331,9 @@ const data: IEmoji[] = [
         description:
           "Por favor, estaría tan feliz si pudieras matar a ese pedazo de mierda humana.",
       },
+      it_ts: {
+        description: "A sarei cuntent la accuppassii quel pezzu da merda",
+      },
     },
   },
   {
@@ -312,6 +353,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Todo esto sucedió en un segundo",
+      },
+      it_ts: {
+        description: "L'è success tutt in semlu",
       },
     },
   },
@@ -333,6 +377,9 @@ const data: IEmoji[] = [
       es: {
         description: "No es un bug, es una característica",
       },
+      it_ts: {
+        description: "Un l'è nù sbagliu, l'é fatt apposta",
+      },
     },
   },
   {
@@ -352,6 +399,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Salud, supongo.",
+      },
+      it_ts: {
+        description: "A buon pro, creidu?",
       },
     },
   },
@@ -373,6 +423,9 @@ const data: IEmoji[] = [
       es: {
         description: "Te cortaré los dedos",
       },
+      it_ts: {
+        description: "A tal taj cal mann",
+      },
     },
   },
   {
@@ -392,6 +445,9 @@ const data: IEmoji[] = [
       },
       es: {
         description: "Qué fracaso tan terrible.",
+      },
+      it_ts: {
+        description: "Ch'a figüra da balurdi",
       },
     },
   },
@@ -420,6 +476,11 @@ const data: IEmoji[] = [
         emoji: "💁👜😇❤️",
         title: ":goal: :male_sign: :innocent: :heart:",
         description: "Llevo a Dios en mi corazón.",
+      },
+      it_ts: {
+        emoji: "😇♾️💁",
+        title: ":goal: :male_sign: :innocent: :heart:",
+        description: "Al signúr l'è sempre cun me",
       },
     },
   },
