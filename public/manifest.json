@@ -1,0 +1,11 @@
+{
+    "short_name": "emojiperanto",
+    "name": "Emojiperanto: A NSFW emoji guide to express concepts",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#101113",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#101113",
+    "description": "A NSFW emoji guide to express concepts"
+}
