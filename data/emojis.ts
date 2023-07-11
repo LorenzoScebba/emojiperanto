@@ -131,7 +131,11 @@ const data: IEmoji[] = [
         title: ":man_mechanic: :sloth:",
         description: "Solo probando, por favor, relájate",
       },
-      // TODO add it_ts
+      it_ts: {
+        emoji: "🦥👨‍🔧",
+        title: ":sloth: :man_mechanic:",
+        description: "Ste tranquìì, che provava solamentu"
+      }
     },
   },
   {
@@ -474,8 +478,7 @@ const data: IEmoji[] = [
         description: "Llevo a Dios en mi corazón.",
       },
       it_ts: {
-        // TODO appropiate?
-        emoji: "💁👜😇❤️",
+        emoji: "😇♾️💁",
         title: ":goal: :male_sign: :innocent: :heart:",
         description: "Al signúr l'è sempre cun me",
       },
