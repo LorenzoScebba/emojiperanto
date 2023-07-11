@@ -34,6 +34,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "A darò n'ucchiada...",
       },
+      it_bg: {
+        description: "So drè a dàga ün öcc...",
+      },
     },
   },
   {
@@ -56,6 +59,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "Ho f'ní",
+      },
+      it_bg: {
+        description: "Facc e finit",
       },
     },
   },
@@ -80,6 +86,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "Sta cosa la fa schifu",
       },
+      it_bg: {
+        description: "Cos'èla sta mèrda?!",
+      },
     },
   },
   {
@@ -102,6 +111,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "N cioccu l'é plu sveltu",
+      },
+      it_bg: {
+        description: "Ü vegetàl l'é piö svèlt",
       },
     },
   },
@@ -134,8 +146,11 @@ const data: IEmoji[] = [
       it_ts: {
         emoji: "🦥👨‍🔧",
         title: ":sloth: :man_mechanic:",
-        description: "Ste tranquìì, che provava solamentu"
-      }
+        description: "Ste tranquìì, che provava solamentu",
+      },
+      it_bg: {
+        description: "L'é drè sül a proà, stá bü",
+      },
     },
   },
   {
@@ -159,6 +174,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "Ansò cumalè",
       },
+      it_bg: {
+        description: "Gò pröpe mia idea de che cäso l'é drè a fá",
+      },
     },
   },
   {
@@ -181,6 +199,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "Oh Dio pensug tè",
+      },
+      it_bg: {
+        description: "Signùr, segnèm sö",
       },
     },
   },
@@ -213,6 +234,10 @@ const data: IEmoji[] = [
       it_ts: {
         description: "A ghe stà un guai, cazzo",
       },
+      it_bg: {
+        emoji: "🕷️😡",
+        description: "Al ghé ü piöcc on dèl rebelöt, cáso",
+      },
     },
   },
   {
@@ -235,6 +260,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "Zittii e arpiattà",
+      },
+      it_bg: {
+        description: "Sitít e sérat sö",
       },
     },
   },
@@ -259,6 +287,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "Basta che tmà pagu e tla ranghiu",
       },
+      it_bg: {
+        description: "Pàghem e l'al sístème",
+      },
     },
   },
   {
@@ -282,12 +313,15 @@ const data: IEmoji[] = [
       it_ts: {
         description: "Murir da u ridr",
       },
+      it_bg: {
+        description: "Grègná de stà mal",
+      },
     },
   },
   {
     id: "kmp",
-    emoji: "🗡",
-    title: ":dagger:",
+    emoji: "🗡🙏",
+    title: ":dagger: :pray:",
     description: "Kill me please",
     translations: {
       it: {
@@ -304,6 +338,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "Puttost mazzemu",
+      },
+      it_bg: {
+        description: "Còpèm per piassér",
       },
     },
   },
@@ -334,6 +371,10 @@ const data: IEmoji[] = [
       it_ts: {
         description: "A sarei cuntent la accuppassii quel pezzu da merda",
       },
+      it_bg: {
+        description:
+          "Per piassér, a sàrés sé contét se ta podesét cöpá chel töc de merda",
+      },
     },
   },
   {
@@ -356,6 +397,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "L'è success tutt in semlu",
+      },
+      it_bg: {
+        description: "Al sòcét töt in d'ü segond",
       },
     },
   },
@@ -380,6 +424,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "Un l'è nù sbagliu, l'é fatt apposta",
       },
+      it_bg: {
+        description: "L'é mia ü piöcc, l'é ü laùr sircát",
+      },
     },
   },
   {
@@ -403,6 +450,9 @@ const data: IEmoji[] = [
       it_ts: {
         description: "A buon pro, creidu?",
       },
+      it_bg: {
+        description: "Salute, pènse.",
+      },
     },
   },
   {
@@ -412,7 +462,7 @@ const data: IEmoji[] = [
     description: "I will cut your fingers",
     translations: {
       it: {
-        description: "Ti taglio le dita.",
+        description: "Ti taglio le dita",
       },
       de: {
         description: "Ich werde dir die Finger abschneiden",
@@ -425,6 +475,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "A tal taj cal mann",
+      },
+      it_bg: {
+        description: "Ä tá tée sö i díc",
       },
     },
   },
@@ -448,6 +501,9 @@ const data: IEmoji[] = [
       },
       it_ts: {
         description: "Ch'a figüra da balurdi",
+      },
+      it_bg: {
+        description: "Che figüra de mérda.",
       },
     },
   },
@@ -481,6 +537,9 @@ const data: IEmoji[] = [
         emoji: "😇♾️💁",
         title: ":goal: :male_sign: :innocent: :heart:",
         description: "Al signúr l'è sempre cun me",
+      },
+      it_bg: {
+        description: "Pörte ol Signùr on del cör",
       },
     },
   },

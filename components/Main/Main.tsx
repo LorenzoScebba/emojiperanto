@@ -84,6 +84,10 @@ const Main = () => {
                   value: "it_ts",
                   label: "Italian (Tuscan)",
                 },
+                {
+                  value: "it_bg",
+                  label: "Italian (Bergamàsch)",
+                },
               ],
             },
           ]}
