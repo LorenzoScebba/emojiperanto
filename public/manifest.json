@@ -7,5 +7,12 @@
     "display": "fullscreen",
     "scope": "/",
     "theme_color": "#101113",
-    "description": "A NSFW emoji guide to express concepts"
+    "description": "A NSFW emoji guide to express concepts",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "160x160"
+        }
+    ]
 }
