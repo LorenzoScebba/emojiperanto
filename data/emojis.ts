@@ -521,7 +521,7 @@ const data: IEmoji[] = [
       de: {
         emoji: "💁👜😇❤️",
         title: ":goal: :male_sign: :innocent: :heart:",
-        description: "Ich trage Gott in meinem Herzen.",
+        description: "Ich trage Gott in meinem Herz.",
       },
       fr: {
         emoji: "💁👜😇❤️",
@@ -543,6 +543,58 @@ const data: IEmoji[] = [
       },
     },
   },
+  {
+    id: "grandmadontdiepls",
+    emoji: "🙏💀👵⌚",
+    title: ":pray: :skull: :older_woman: :watch:",
+    description: "I hope my grandmother will not kick the bucket anytime soon",
+    translations: {
+      it: {
+        description: "Spero non mi schiatti la nonna a breve",
+      },
+      de: {
+        description: "Ich hoffe, meine Großmutter tritt nicht bald ins Gras",
+      },
+      fr: {
+        description: "J'espère que ma grand-mère ne passera pas l'arme à gauche de sitôt",
+      },
+      es: {
+        description: "Espero que mi abuela no muerda el polvo en cualquier momento pronto",
+      },
+      it_ts: {
+        description: "Sperum cha 'n mal mor la nøna a mo",
+      },
+      it_bg: {
+        description: "A spère la ma crepè mia la nóna tra póch",
+      },
+    },
+  },
+  {
+    id: "importantdecisions",
+    emoji: "🙋⬆️👉⬇️❔",
+    title: ":raising_hand: :arrow_up: :point_right: :arrow_down: :question:",
+    description: "I'll be top, you'll be bottom?",
+    translations: {
+      it: {
+        description: "Io sopra, tu sotto?"
+      },
+      de: {
+        description: "Ich oben, du unten?",
+      },
+      fr: {
+        description: "Je suis au dessus, tu es en dessous?",
+      },
+      es: {
+        description: "¿Yo arriba, tú abajo?",
+      },
+      it_ts: {
+        description: "Me in coppa, tu de sotto?",
+      },
+      it_bg: {
+        description: "Me süra, te söta?",
+      },
+    }
+  }
 ];
 
 export default data;
