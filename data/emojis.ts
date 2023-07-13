@@ -217,17 +217,14 @@ const data: IEmoji[] = [
         description: "Ma che cazzo, c'è un bug nel codice.",
       },
       de: {
-        emoji: "🐛😡",
         title: ":rage: :bug:",
         description: "Da ist ein Bug im Code, verdammt nochmal.",
       },
       fr: {
-        emoji: "🐛😡",
         title: ":rage: :bug:",
         description: "Il y a un bug dans le code, bordel.",
       },
       es: {
-        emoji: "🐛😡",
         title: ":rage: :bug:",
         description: "Hay un bug en el código, maldición.",
       },
@@ -519,18 +516,12 @@ const data: IEmoji[] = [
         description: "Porto dio nel cuore",
       },
       de: {
-        emoji: "💁👜😇❤️",
-        title: ":goal: :male_sign: :innocent: :heart:",
         description: "Ich trage Gott in meinem Herz.",
       },
       fr: {
-        emoji: "💁👜😇❤️",
-        title: ":goal: :male_sign: :innocent: :heart:",
         description: "Je porte Dieu dans mon cœur.",
       },
       es: {
-        emoji: "💁👜😇❤️",
-        title: ":goal: :male_sign: :innocent: :heart:",
         description: "Llevo a Dios en mi corazón.",
       },
       it_ts: {
@@ -556,10 +547,12 @@ const data: IEmoji[] = [
         description: "Ich hoffe, meine Großmutter tritt nicht bald ins Gras",
       },
       fr: {
-        description: "J'espère que ma grand-mère ne passera pas l'arme à gauche de sitôt",
+        description:
+          "J'espère que ma grand-mère ne passera pas l'arme à gauche de sitôt",
       },
       es: {
-        description: "Espero que mi abuela no muerda el polvo en cualquier momento pronto",
+        description:
+          "Espero que mi abuela no muerda el polvo en cualquier momento pronto",
       },
       it_ts: {
         description: "Sperum cha 'n mal mor la nøna a mo",
@@ -576,7 +569,7 @@ const data: IEmoji[] = [
     description: "I'll be top, you'll be bottom?",
     translations: {
       it: {
-        description: "Io sopra, tu sotto?"
+        description: "Io sopra, tu sotto?",
       },
       de: {
         description: "Ich oben, du unten?",
@@ -593,8 +586,8 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Me süra, te söta?",
       },
-    }
-  }
+    },
+  },
 ];
 
 export default data;
