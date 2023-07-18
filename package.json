@@ -14,9 +14,9 @@
     "@mantine/notifications": "^7.0.0-alpha.18",
     "@tabler/icons-react": "^2.26.0",
     "eslint": "8.45.0",
-    "eslint-config-next": "13.4.9",
+    "eslint-config-next": "13.4.10",
     "lodash.get": "^4.4.2",
-    "next": "13.4.9",
+    "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
