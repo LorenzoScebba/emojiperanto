@@ -607,7 +607,7 @@ const data: IEmoji[] = [
         description: "¿Todavía está bloqueado?"
       },
       it_ts: {
-        description: "",
+        description: "Sta 'ncastrà?",
       },
       it_bg: {
         description: "",
@@ -633,7 +633,7 @@ const data: IEmoji[] = [
         description: "Me estoy volviendo loco"
       },
       it_ts: {
-        description: "",
+        description: "Son tanacco",
       },
       it_bg: {
         description: "",
@@ -659,7 +659,7 @@ const data: IEmoji[] = [
         description: "¡Qué combinación!"
       },
       it_ts: {
-        description: "",
+        description: "Che combo!",
       },
       it_bg: {
         description: "",
