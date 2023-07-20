@@ -595,24 +595,24 @@ const data: IEmoji[] = [
     description: "Still stuck?",
     translations: {
       it: {
-        description: "É ancora bloccato?"
+        description: "É ancora bloccato?",
       },
       de: {
-        description: "Ist es immer noch blockiert?"
+        description: "Ist es immer noch blockiert?",
       },
       fr: {
-        description: "Est-ce encore bloqué?"
+        description: "Est-ce encore bloqué?",
       },
       es: {
-        description: "¿Todavía está bloqueado?"
+        description: "¿Todavía está bloqueado?",
       },
       it_ts: {
         description: "Sta 'ncastrà?",
       },
       it_bg: {
-        description: "",
+        description: "El amó 'ncastrát?",
       },
-    }
+    },
   },
   {
     id: "goingcrazy",
@@ -621,24 +621,24 @@ const data: IEmoji[] = [
     description: "I'm going crazy",
     translations: {
       it: {
-        description: "Sto impazzendo"
+        description: "Sto impazzendo",
       },
       de: {
-        description: "Ich werde verrückt"
+        description: "Ich werde verrückt",
       },
       fr: {
-        description: "Je deviens fou"
+        description: "Je deviens fou",
       },
       es: {
-        description: "Me estoy volviendo loco"
+        description: "Me estoy volviendo loco",
       },
       it_ts: {
         description: "Son tanacco",
       },
       it_bg: {
-        description: "",
+        description: "Sò dré a'ndá fó de cò",
       },
-    }
+    },
   },
   {
     id: "ccccombo",
@@ -647,24 +647,24 @@ const data: IEmoji[] = [
     description: "What a combo!",
     translations: {
       it: {
-        description: "Che combo!"
+        description: "Che combo!",
       },
       de: {
-        description: "Was für eine Kombination!"
+        description: "Was für eine Kombination!",
       },
       fr: {
-        description: "Quel combo!"
+        description: "Quel combo!",
       },
       es: {
-        description: "¡Qué combinación!"
+        description: "¡Qué combinación!",
       },
       it_ts: {
         description: "Che combo!",
       },
       it_bg: {
-        description: "",
+        description: "Che rébelót!",
       },
-    }
+    },
   },
 ];
 
