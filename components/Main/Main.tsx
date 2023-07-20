@@ -88,6 +88,10 @@ const Main = () => {
                   value: "it_bg",
                   label: "Italian (Bergamàsch)",
                 },
+                {
+                  value: "meow",
+                  label: "Meow~",
+                },
               ],
             },
           ]}

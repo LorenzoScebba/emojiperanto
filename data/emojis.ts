@@ -37,6 +37,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "So drè a dàga ün öcc...",
       },
+      meow: {
+        description: "Meow mrrr...",
+      },
     },
   },
   {
@@ -62,6 +65,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Facc e finit",
+      },
+      meow: {
+        description: "Meow - mEEEwr!",
       },
     },
   },
@@ -89,6 +95,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Cos'èla sta mèrda?!",
       },
+      meow: {
+        description: "Mrow hiiiiis?!",
+      },
     },
   },
   {
@@ -114,6 +123,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Ü vegetàl l'é piö svèlt",
+      },
+      meow: {
+        description: "Prr meow prtt mEEWr - meow!",
       },
     },
   },
@@ -151,6 +163,11 @@ const data: IEmoji[] = [
       it_bg: {
         description: "L'é drè sül a proà, stá bü",
       },
+      meow: {
+        emoji: "🐈‍⬛⚾",
+        title: ":black_cat: :baseball:",
+        description: "Meow prr meow - meow!",
+      },
     },
   },
   {
@@ -177,6 +194,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Gò pröpe mia idea de che cäso l'é drè a fá",
       },
+      meow: {
+        description: "Meow mrrr meow?",
+      },
     },
   },
   {
@@ -202,6 +222,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Signùr, segnèm sö",
+      },
+      meow: {
+        description: "Prrr, meow hiisssss, meow..",
       },
     },
   },
@@ -235,6 +258,9 @@ const data: IEmoji[] = [
         emoji: "🕷️😡",
         description: "Al ghé ü piöcc on dèl rebelöt, cáso",
       },
+      meow: {
+        description: "MEOW PRRR meow, mrrr meow.",
+      },
     },
   },
   {
@@ -260,6 +286,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Sitít e sérat sö",
+      },
+      meow: {
+        description: "Mreow, hiiiiss!",
       },
     },
   },
@@ -287,6 +316,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Pàghem e l'al sístème",
       },
+      meow: {
+        description: "Prrr meow, meow mrrr",
+      },
     },
   },
   {
@@ -313,6 +345,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Grègná de stà mal",
       },
+      meow: {
+        description: "Mrrrreow!",
+      },
     },
   },
   {
@@ -338,6 +373,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Còpèm per piassér",
+      },
+      meow: {
+        description: "Hiiiisss prr..",
       },
     },
   },
@@ -372,6 +410,9 @@ const data: IEmoji[] = [
         description:
           "Per piassér, a sàrés sé contét se ta podesét cöpá chel töc de merda",
       },
+      meow: {
+        description: "Prrr, meow mrrr mreow - meow mrrr hiiiss.",
+      },
     },
   },
   {
@@ -397,6 +438,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Al sòcét töt in d'ü segond",
+      },
+      meow: {
+        description: "M e o w, prrr!",
       },
     },
   },
@@ -424,6 +468,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "L'é mia ü piöcc, l'é ü laùr sircát",
       },
+      meow: {
+        description: "Hiiiisss, meow mrrr meow!",
+      },
     },
   },
   {
@@ -449,6 +496,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Salute, pènse.",
+      },
+      meow: {
+        description: "Meow, mrrr?",
       },
     },
   },
@@ -476,6 +526,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Ä tá tée sö i díc",
       },
+      meow: {
+        description: "Hiiiiissss, rrrr",
+      },
     },
   },
   {
@@ -501,6 +554,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Che figüra de mérda.",
+      },
+      meow: {
+        description: "Meow, meow, meeeeooooow...",
       },
     },
   },
@@ -532,6 +588,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Pörte ol Signùr on del cör",
       },
+      meow: {
+        description: "Prrr meow - prrrt",
+      },
     },
   },
   {
@@ -560,6 +619,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "A spère la ma crepè mia la nóna tra póch",
       },
+      meow: {
+        description: "Meow prrr hiiis mrrr mreow",
+      },
     },
   },
   {
@@ -585,6 +647,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Me süra, te söta?",
+      },
+      meow: {
+        description: "Meow prrr, meow mrrr?",
       },
     },
   },
@@ -612,6 +677,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "El amó 'ncastrát?",
       },
+      meow: {
+        description: "Mreeow prrrr?",
+      },
     },
   },
   {
@@ -638,6 +706,9 @@ const data: IEmoji[] = [
       it_bg: {
         description: "Sò dré a'ndá fó de cò",
       },
+      meow: {
+        description: "ssiiih, werrrM",
+      },
     },
   },
   {
@@ -663,6 +734,9 @@ const data: IEmoji[] = [
       },
       it_bg: {
         description: "Che rébelót!",
+      },
+      meow: {
+        description: "Mreaw Mreeeow!",
       },
     },
   },
