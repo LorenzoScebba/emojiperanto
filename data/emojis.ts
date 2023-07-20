@@ -259,6 +259,8 @@ const data: IEmoji[] = [
         description: "Al ghé ü piöcc on dèl rebelöt, cáso",
       },
       meow: {
+        emoji: "🕷😾",
+        title: ":spider: :pouting_cat_face:",
         description: "MEOW PRRR meow, mrrr meow.",
       },
     },
@@ -346,6 +348,8 @@ const data: IEmoji[] = [
         description: "Grègná de stà mal",
       },
       meow: {
+        emoji: "😹🍑📤",
+        title: ":joy_cat: :peach: :outbox_tray:",
         description: "Mrrrreow!",
       },
     },
@@ -411,6 +415,9 @@ const data: IEmoji[] = [
           "Per piassér, a sàrés sé contét se ta podesét cöpá chel töc de merda",
       },
       meow: {
+        emoji: "🙏😻☠️🙀💩",
+        title:
+          ":pray: :smiling_cat_with_heart_eyes: :skull_and_crossbones: :scream_cat: :poop:",
         description: "Prrr, meow mrrr mreow - meow mrrr hiiiss.",
       },
     },
@@ -589,6 +596,8 @@ const data: IEmoji[] = [
         description: "Pörte ol Signùr on del cör",
       },
       meow: {
+        emoji: "😽😇❤️",
+        title: ":kissing_cat: :innocent: :heart:",
         description: "Prrr meow - prrrt",
       },
     },
@@ -620,6 +629,8 @@ const data: IEmoji[] = [
         description: "A spère la ma crepè mia la nóna tra póch",
       },
       meow: {
+        emoji: "🙏💀😿⌚",
+        title: ":pray: :skull: :crying_cat_face: :watch:",
         description: "Meow prrr hiiis mrrr mreow",
       },
     },
@@ -649,6 +660,8 @@ const data: IEmoji[] = [
         description: "Me süra, te söta?",
       },
       meow: {
+        emoji: "🐱⬆️👉⬇️❔",
+        title: ":cat: :arrow_up: :point_right: :arrow_down: :question:",
         description: "Meow prrr, meow mrrr?",
       },
     },
