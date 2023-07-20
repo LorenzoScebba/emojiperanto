@@ -16,9 +16,10 @@ import {
 import { IconSearch } from "@tabler/icons-react";
 import get from "lodash.get";
 import Image from "next/image";
+import { LanguagesSelect } from "@/components/LanguagesSelect/LanguagesSelect";
 
 const Main = () => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("gb");
   const [enableShortcodes, setEnableShortcodes] = useState(false);
   const [filter, setFilter] = useState("");
 
@@ -48,51 +49,9 @@ const Main = () => {
           label="Shortcodes"
           labelPosition={"left"}
         />
-        <Select
-          key={language}
-          placeholder="Language"
-          data={[
-            {
-              group: "Real languages",
-              items: [
-                {
-                  value: "en",
-                  label: "English",
-                },
-                {
-                  value: "it",
-                  label: "Italian",
-                },
-                {
-                  value: "de",
-                  label: "Deutsch",
-                },
-                {
-                  value: "fr",
-                  label: "French",
-                },
-                {
-                  value: "es",
-                  label: "Spanish",
-                },
-              ],
-            },
-            {
-              group: "Wtf languages",
-              items: [
-                {
-                  value: "it_ts",
-                  label: "Italian (Tuscan)",
-                },
-                {
-                  value: "it_bg",
-                  label: "Italian (Bergamàsch)",
-                },
-              ],
-            },
-          ]}
+        <LanguagesSelect
           value={language}
-          onChange={(v) => setLanguage(v || "en")}
+          setValue={(v) => setLanguage(v || "gb")}
         />
       </Group>
       <TextInput
