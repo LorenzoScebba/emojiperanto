@@ -115,7 +115,7 @@ export function LanguagesSelect({
   const selectedOption = langs.find((item) => item.value === value);
 
   const options = Object.keys(partitions).map((groupName) => (
-    <Combobox.Group label={groupName}>
+    <Combobox.Group label={groupName} key={groupName}>
       {partitions[groupName].map((item) => (
         <Combobox.Option value={item.value} key={item.value}>
           <SelectOption {...item} />
