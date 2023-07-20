@@ -5,10 +5,9 @@ import styles from "./Header.module.css";
 import { Box, Button } from "@mantine/core";
 
 const Header = () => {
-
   return (
     <Box component={"header"} className={styles.header}>
-      <Box className={styles.title} suppressHydrationWarning>Emojiperanto 🤪</Box>
+      <Box className={styles.title}>Emojiperanto 🤪</Box>
       <Box className={styles.subtitle}>
         A <u>NSFW</u> emoji guide to express concepts.
       </Box>
@@ -18,7 +17,7 @@ const Header = () => {
           onClick={() => {
             window.open(
               "https://github.com/LorenzoScebba/emojiperanto",
-              "_blank"
+              "_blank",
             );
           }}
         >
@@ -29,7 +28,7 @@ const Header = () => {
           onClick={() => {
             window.open(
               "https://github.com/LorenzoScebba/emojiperanto/blob/master/CONTRIBUTORS.md",
-              "_blank"
+              "_blank",
             );
           }}
         >
