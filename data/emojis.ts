@@ -756,7 +756,7 @@ const data: IEmoji[] = [
   {
     id: "seghementali",
     emoji: "🧠🤸",
-    title: ":fist: :sweat_drops: :brain:",
+    title: ":brain: :person_doing_cartwheel:",
     description: "That's mental gymnastics.",
     translations: {
       it: {
