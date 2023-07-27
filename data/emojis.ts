@@ -753,6 +753,37 @@ const data: IEmoji[] = [
       },
     },
   },
+  {
+    id: "seghementali",
+    emoji: "🧠🤸",
+    title: ":fist: :sweat_drops: :brain:",
+    description: "That's mental gymnastics.",
+    translations: {
+      it: {
+        emoji: "✊💦🧠",
+        title: ":fist: :sweat_drops: :brain:",
+        description: "Che seghe mentali",
+      },
+      de: {
+        description: "Das sind mentale Gymnastikübungen.",
+      },
+      fr: {
+        description: "C'est de la gymnastique mentale.",
+      },
+      es: {
+        description: "Eso es gimnasia mental.",
+      },
+      it_ts: {
+        description: "",
+      },
+      it_bg: {
+        description: "",
+      },
+      meow: {
+        description: "Mrew MMMMMao Mrrp!",
+      },
+    },
+  },
 ];
 
 export default data;
