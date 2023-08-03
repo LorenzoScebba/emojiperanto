@@ -774,7 +774,9 @@ const data: IEmoji[] = [
         description: "Eso es gimnasia mental.",
       },
       it_ts: {
-        description: "",
+        emoji: "✊💦🧠",
+        title: ":fist: :sweat_drops: :brain:",
+        description: "Che paturnie",
       },
       it_bg: {
         emoji: "✊💦🧠",
