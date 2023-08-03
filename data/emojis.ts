@@ -777,7 +777,9 @@ const data: IEmoji[] = [
         description: "",
       },
       it_bg: {
-        description: "",
+        emoji: "✊💦🧠",
+        title: ":fist: :sweat_drops: :brain:",
+        description: "Che ménade",
       },
       meow: {
         description: "Mrew MMMMMao Mrrp!",
