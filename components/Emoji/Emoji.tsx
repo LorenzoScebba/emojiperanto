@@ -11,10 +11,18 @@ interface EmojiProps extends IEmoji {
 }
 
 const Emoji = (props: EmojiProps) => {
+  const emoji = get(props, `translations.${props.language}.emoji`, props.emoji);
+  const title = get(props, `translations.${props.language}.title`, props.title);
+  const description = get(
+    props,
+    `translations.${props.language}.description`,
+    props.description,
+  );
+
   const copyAndShowNotification = (copy: () => void) => {
     copy();
     notifications.show({
-      title: `Emoji ${props.emoji} copied!`,
+      title: `Emoji ${emoji} copied!`,
       message: `You can now paste it anywhere!`,
       color: "blue",
       autoClose: 3000,
@@ -24,14 +32,6 @@ const Emoji = (props: EmojiProps) => {
       },
     });
   };
-
-  const emoji = get(props, `translations.${props.language}.emoji`, props.emoji);
-  const title = get(props, `translations.${props.language}.title`, props.title);
-  const description = get(
-    props,
-    `translations.${props.language}.description`,
-    props.description,
-  );
 
   return (
     <Box className={styles.emoji}>
