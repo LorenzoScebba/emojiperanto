@@ -8,7 +8,7 @@ import "@mantine/core/styles.css";
 import "@mantine/notifications/styles.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <MantineProvider theme={theme}>
+  <MantineProvider theme={theme} defaultColorScheme={"dark"}>
     <Notifications />
     <App />
   </MantineProvider>,
