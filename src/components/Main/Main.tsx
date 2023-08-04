@@ -1,22 +1,11 @@
-"use client";
-
-import React, { useState } from "react";
-import data from "@/data/emojis";
+import {useState} from "react";
 import styles from "./Main.module.css";
-import Emoji from "@/components/Emoji/Emoji";
-import {
-  Box,
-  Group,
-  Select,
-  Switch,
-  TextInput,
-  Text,
-  Stack,
-} from "@mantine/core";
-import { IconSearch } from "@tabler/icons-react";
+import {Box, Group, Stack, Switch, Text, TextInput, Image} from "@mantine/core";
+import {IconSearch} from "@tabler/icons-react";
 import get from "lodash.get";
-import Image from "next/image";
-import { LanguagesSelect } from "@/components/LanguagesSelect/LanguagesSelect";
+import data from "../../data/emojis.ts";
+import {LanguagesSelect} from "../LanguagesSelect/LanguagesSelect.tsx";
+import Emoji from "../Emoji/Emoji.tsx";
 
 const Main = () => {
   const [language, setLanguage] = useState("gb");
@@ -56,7 +45,7 @@ const Main = () => {
       </Group>
       <TextInput
         mb={16}
-        leftSection={<IconSearch />}
+        leftSection={<IconSearch/>}
         type={"text"}
         placeholder={"Search concept"}
         onChange={(ev) => setFilter(ev.currentTarget.value)}
