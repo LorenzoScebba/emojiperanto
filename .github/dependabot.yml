@@ -10,10 +10,6 @@ updates:
     schedule:
       interval: "weekly"
     groups:
-      next: 
-        patterns:
-          - "next"
-          - "eslint-config-next"
       mantine:
         patterns:
           - "@mantine*"

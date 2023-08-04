@@ -1,9 +1,0 @@
-.footer {
-    display: grid;
-    place-content: center;
-    height: 200px;
-    background: var(--primary);
-    color: var(--text);
-    font-size: 48px;
-    text-align: center;
-}

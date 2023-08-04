@@ -8,7 +8,6 @@ import {
   useCombobox,
 } from "@mantine/core";
 import get from "lodash.get";
-// @ts-ignore
 import { findFlagUrlByIso2Code } from "country-flags-svg";
 
 function partitionArrayByProperty(array: Item[], property: string) {
@@ -87,7 +86,7 @@ const getFlag = (value: string): string => {
   }
 };
 
-function SelectOption({ value, label, group }: Item) {
+function SelectOption({ value, label }: Item) {
   const flag = getFlag(value);
   return (
     <Group>

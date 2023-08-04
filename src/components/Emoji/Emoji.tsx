@@ -1,9 +1,8 @@
-import React from "react";
-import { IEmoji } from "@/data/emojis";
 import styles from "./Emoji.module.css";
 import { Box, CopyButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import get from "lodash.get";
+import { IEmoji } from "../../data/emojis.ts";
 
 interface EmojiProps extends IEmoji {
   showShortcode?: boolean;
@@ -36,7 +35,7 @@ const Emoji = (props: EmojiProps) => {
   return (
     <Box className={styles.emoji}>
       <CopyButton value={emoji}>
-        {({ copied, copy }) => (
+        {({ copy }) => (
           <Box
             onClick={() => copyAndShowNotification(copy)}
             className={styles.emojiIcon}
