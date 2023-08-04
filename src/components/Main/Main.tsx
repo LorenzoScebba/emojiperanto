@@ -1,10 +1,18 @@
-import {useState} from "react";
+import { useState } from "react";
 import styles from "./Main.module.css";
-import {Box, Group, Stack, Switch, Text, TextInput, Image} from "@mantine/core";
-import {IconSearch} from "@tabler/icons-react";
+import {
+  Box,
+  Group,
+  Image,
+  Stack,
+  Switch,
+  Text,
+  TextInput,
+} from "@mantine/core";
+import { IconSearch } from "@tabler/icons-react";
 import get from "lodash.get";
 import data from "../../data/emojis.ts";
-import {LanguagesSelect} from "../LanguagesSelect/LanguagesSelect.tsx";
+import { LanguagesSelect } from "../LanguagesSelect/LanguagesSelect.tsx";
 import Emoji from "../Emoji/Emoji.tsx";
 
 const Main = () => {
@@ -45,7 +53,7 @@ const Main = () => {
       </Group>
       <TextInput
         mb={16}
-        leftSection={<IconSearch/>}
+        leftSection={<IconSearch />}
         type={"text"}
         placeholder={"Search concept"}
         onChange={(ev) => setFilter(ev.currentTarget.value)}

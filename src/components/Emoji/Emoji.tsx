@@ -2,7 +2,7 @@ import styles from "./Emoji.module.css";
 import { Box, CopyButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import get from "lodash.get";
-import {IEmoji} from "../../data/emojis.ts";
+import { IEmoji } from "../../data/emojis.ts";
 
 interface EmojiProps extends IEmoji {
   showShortcode?: boolean;
