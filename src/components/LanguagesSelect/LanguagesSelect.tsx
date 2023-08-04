@@ -9,9 +9,13 @@ import {
 } from "@mantine/core";
 import get from "lodash.get";
 import { findFlagUrlByIso2Code } from "country-flags-svg";
+import { EMOJIPERANTO_LANGS, EmojiperantoLanguage } from "../../data/langs";
 
-function partitionArrayByProperty(array: Item[], property: string) {
-  const partitions = {} as Record<string, Item[]>;
+function partitionArrayByProperty(
+  array: EmojiperantoLanguage[],
+  property: string,
+) {
+  const partitions = {} as Record<string, EmojiperantoLanguage[]>;
 
   array.forEach((item) => {
     const propValue = get(item, property) as string;
@@ -23,55 +27,6 @@ function partitionArrayByProperty(array: Item[], property: string) {
 
   return partitions;
 }
-
-interface Item {
-  value: string;
-  group: string;
-  label: string;
-}
-
-const langs: Item[] = [
-  {
-    value: "gb",
-    group: "Real languages",
-    label: "English",
-  },
-  {
-    value: "it",
-    group: "Real languages",
-    label: "Italian",
-  },
-  {
-    value: "de",
-    group: "Real languages",
-    label: "Deutsch",
-  },
-  {
-    value: "fr",
-    group: "Real languages",
-    label: "French",
-  },
-  {
-    value: "es",
-    group: "Real languages",
-    label: "Spanish",
-  },
-  {
-    value: "it_ts",
-    group: "Wtf languages",
-    label: "Italian (Tuscan)",
-  },
-  {
-    value: "it_bg",
-    group: "Wtf languages",
-    label: "Italian (Bergamàsch)",
-  },
-  {
-    value: "meow",
-    group: "Wtf languages",
-    label: "Meow~",
-  },
-];
 
 const getFlag = (value: string): string => {
   switch (value) {
@@ -86,7 +41,7 @@ const getFlag = (value: string): string => {
   }
 };
 
-function SelectOption({ value, label }: Item) {
+function SelectOption({ value, label }: EmojiperantoLanguage) {
   const flag = getFlag(value);
   return (
     <Group>
@@ -109,9 +64,11 @@ export function LanguagesSelect({
     onDropdownClose: () => combobox.resetSelectedOption(),
   });
 
-  const partitions = partitionArrayByProperty(langs, "group");
+  const partitions = partitionArrayByProperty(EMOJIPERANTO_LANGS, "group");
 
-  const selectedOption = langs.find((item) => item.value === value);
+  const selectedOption = EMOJIPERANTO_LANGS.find(
+    (item) => item.value === value,
+  );
 
   const options = Object.keys(partitions).map((groupName) => (
     <Combobox.Group label={groupName} key={groupName}>

@@ -34,6 +34,7 @@ const Main = () => {
       description.toLowerCase().includes(filter.toLowerCase())
     );
   });
+
   return (
     <Box component={"main"} className={styles.main}>
       <Group justify="flex-end" mb={8}>
