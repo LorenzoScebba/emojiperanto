@@ -32,5 +32,8 @@ export default {
       emoji: "🐈‍⬛⚾",
       description: "Meow prr meow - meow!",
     },
+    kawaii: {
+      description: "Just testing, please chewu Chilluwu, nya~! Takeawyewu~",
+    },
   },
 } as IEmoji;

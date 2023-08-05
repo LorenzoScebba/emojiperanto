@@ -26,5 +26,8 @@ export default {
     meow: {
       description: "Meow, meow, meeeeooooow...",
     },
+    kawaii: {
+      description: "What a tewwible faiwuwe, nya~! So disappoiwting desu~",
+    },
   },
 } as IEmoji;

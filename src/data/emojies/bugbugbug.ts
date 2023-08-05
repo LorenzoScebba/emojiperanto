@@ -29,5 +29,8 @@ export default {
       emoji: "🕷😾",
       description: "MEOW PRRR meow, mrrr meow.",
     },
+    kawaii: {
+      description: "There is a bwug in the code, fwuck sake, nya~!",
+    },
   },
 } as IEmoji;

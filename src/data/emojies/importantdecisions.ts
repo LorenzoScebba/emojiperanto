@@ -27,5 +27,9 @@ export default {
       emoji: "🐱⬆️👉⬇️❔",
       description: "Meow prrr, meow mrrr?",
     },
+    kawaii: {
+      description:
+        "I'll be top, you'll be bottom, nya~! Aih-aih~ That's quite naughty~",
+    },
   },
 } as IEmoji;

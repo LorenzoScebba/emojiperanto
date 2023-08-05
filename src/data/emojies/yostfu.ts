@@ -26,5 +26,9 @@ export default {
     meow: {
       description: "Mreow, hiiiiss!",
     },
+    kawaii: {
+      description:
+        "Muted and suppwessed, nya~? Can't make a soundu, so siwent and smallu~",
+    },
   },
 } as IEmoji;

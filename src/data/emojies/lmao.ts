@@ -27,5 +27,8 @@ export default {
       emoji: "😹🍑📤",
       description: "Mrrrreow!",
     },
+    kawaii: {
+      description: "Waffwing my ass offu, nya~! So funny, aiya~!",
+    },
   },
 } as IEmoji;

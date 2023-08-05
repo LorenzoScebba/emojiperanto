@@ -36,6 +36,8 @@ const getFlag = (value: string): string => {
       return "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Bergamo.svg";
     case "meow":
       return "https://upload.wikimedia.org/wikipedia/commons/b/bc/Anarchist_black_cat_flag.svg";
+    case "kawaii":
+      return "https://i.redd.it/9kd836mo6fo81.png";
     default:
       return findFlagUrlByIso2Code(value);
   }

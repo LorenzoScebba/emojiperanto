@@ -3,7 +3,7 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "christians w",
   emoji: "💁👜😇❤️",
-  description: "I carry god in my heart.",
+  description: "I cawwy god in my heawt, nya~! nychu~!",
   translations: {
     it: {
       emoji: "🥅♂️😇❤️",

@@ -29,5 +29,8 @@ export default {
     meow: {
       description: "Mrew MMMMMao Mrrp!",
     },
+    kawaii: {
+      description: "That's mentaw gymnastics, nya~! So twisty-turny~!",
+    },
   },
 } as IEmoji;

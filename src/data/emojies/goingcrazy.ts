@@ -26,5 +26,8 @@ export default {
     meow: {
       description: "ssiiih, werrrM",
     },
+    kawaii: {
+      description: "I'm going cwazy! Fweeling a wittle wild, nya~!",
+    },
   },
 } as IEmoji;

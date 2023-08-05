@@ -26,5 +26,9 @@ export default {
     meow: {
       description: "Prrr, meow hiisssss, meow..",
     },
+    kawaii: {
+      description:
+        "God, I need some hewp, nya~! A little assis-twance would be nice, nya~!",
+    },
   },
 } as IEmoji;

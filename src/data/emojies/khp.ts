@@ -31,9 +31,11 @@ export default {
     },
     meow: {
       emoji: "🙏😻☠️🙀💩",
-      title:
-        ":pray: :smiling_cat_with_heart_eyes: :skull_and_crossbones: :scream_cat: :poop:",
       description: "Prrr, meow mrrr mreow - meow mrrr hiiiss.",
+    },
+    kawaii: {
+      description:
+        "Pwease, I would be so happy if chu could kiww that human piece of shit, nya~! Let's pwursue happiness with viowence~!",
     },
   },
 } as IEmoji;

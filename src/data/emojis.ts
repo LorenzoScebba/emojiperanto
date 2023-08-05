@@ -1,12 +1,12 @@
 import * as emojies from "./emojies";
-import { EMOJIPERANTO_LANGS } from "./langs.ts";
+import { EMOJIPERANTO_LANGS, SupportedLanguages } from "./langs.ts";
 
 export interface IEmoji {
   id: string;
   emoji: string;
   description: string;
   translations?: {
-    [key: string]: {
+    [key in SupportedLanguages]: {
       emoji?: string;
       description?: string;
     };

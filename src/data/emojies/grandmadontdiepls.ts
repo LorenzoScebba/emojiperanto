@@ -29,5 +29,9 @@ export default {
       emoji: "🙏💀😿⌚",
       description: "Meow prrr hiiis mrrr mreow",
     },
+    kawaii: {
+      description:
+        "I hope my gwandmothwew wiww not kick the bucket anytime soon, nya~! May she stay heawthy and happi ~",
+    },
   },
 } as IEmoji;

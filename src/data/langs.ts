@@ -1,8 +1,19 @@
 export interface EmojiperantoLanguage {
-  value: string;
+  value: SupportedLanguages;
   group: string;
   label: string;
 }
+
+export type SupportedLanguages =
+  | "gb"
+  | "it"
+  | "de"
+  | "fr"
+  | "es"
+  | "it_ts"
+  | "it_bg"
+  | "meow"
+  | "kawaii";
 
 export const EMOJIPERANTO_LANGS: EmojiperantoLanguage[] = [
   {
@@ -44,5 +55,10 @@ export const EMOJIPERANTO_LANGS: EmojiperantoLanguage[] = [
     value: "meow",
     group: "Wtf languages",
     label: "Meow~",
+  },
+  {
+    value: "kawaii",
+    group: "Wtf languages",
+    label: "Kawaii~",
   },
 ];

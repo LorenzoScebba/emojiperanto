@@ -26,5 +26,9 @@ export default {
     meow: {
       description: "Prrr meow, meow mrrr",
     },
+    kawaii: {
+      description:
+        "Pay me and I'll fix theissueu, nya~! Wewards make evewything bettewu~",
+    },
   },
 } as IEmoji;
