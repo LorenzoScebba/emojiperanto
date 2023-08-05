@@ -4,12 +4,10 @@ import { EMOJIPERANTO_LANGS } from "./langs.ts";
 export interface IEmoji {
   id: string;
   emoji: string;
-  title: string;
   description: string;
   translations?: {
     [key: string]: {
       emoji?: string;
-      title?: string;
       description?: string;
     };
   };

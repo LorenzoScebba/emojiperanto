@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "1,2,3,4,5",
   emoji: "🔢🥩",
-  title: ":1234: :cut_of_meat:",
   description: "All of this happened in a second",
   translations: {
     it: {

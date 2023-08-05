@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "blessyou",
   emoji: "🌬️❔",
-  title: ":wind_face: :grey_question:",
   description: "Bless you, I guess.",
   translations: {
     it: {

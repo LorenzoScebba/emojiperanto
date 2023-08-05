@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "observing",
   emoji: "👀",
-  title: ":eyes:",
   description: "Vigilantly observing...",
   translations: {
     it: {

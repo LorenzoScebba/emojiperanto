@@ -3,12 +3,10 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "christians w",
   emoji: "💁👜😇❤️",
-  title: ":goal: :male_sign: :innocent: :heart:",
   description: "I carry god in my heart.",
   translations: {
     it: {
       emoji: "🥅♂️😇❤️",
-      title: ":goal: :male_sign: :innocent: :heart:",
       description: "Porto dio nel cuore",
     },
     de: {
@@ -22,7 +20,6 @@ export default {
     },
     it_ts: {
       emoji: "😇♾️💁",
-      title: ":goal: :male_sign: :innocent: :heart:",
       description: "Al signúr l'è sempre cun me",
     },
     it_bg: {
@@ -30,7 +27,6 @@ export default {
     },
     meow: {
       emoji: "😽😇❤️",
-      title: ":kissing_cat: :innocent: :heart:",
       description: "Prrr meow - prrrt",
     },
   },

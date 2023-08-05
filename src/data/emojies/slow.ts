@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "slow",
   emoji: "🥦➕🏃➡️🐌",
-  title: ":snail:",
   description: "A vegetable is faster than this.",
   translations: {
     it: {

@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "LMAO",
   emoji: "🤣🍑📤",
-  title: ":joy: :peach: :outbox_tray:",
   description: "Laughing my ass off",
   translations: {
     it: {
@@ -26,7 +25,6 @@ export default {
     },
     meow: {
       emoji: "😹🍑📤",
-      title: ":joy_cat: :peach: :outbox_tray:",
       description: "Mrrrreow!",
     },
   },

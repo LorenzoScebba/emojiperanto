@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "ccccombo",
   emoji: "🎰❕",
-  title: ":slot_machine: :grey_exclamation:",
   description: "What a combo!",
   translations: {
     it: {

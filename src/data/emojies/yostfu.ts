@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "yo stfu",
   emoji: "🔇️",
-  title: ":mute:",
   description: "Muted and suppressed.",
   translations: {
     it: {

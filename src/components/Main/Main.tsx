@@ -17,12 +17,11 @@ import Emoji from "../Emoji/Emoji.tsx";
 
 const Main = () => {
   const [language, setLanguage] = useState("gb");
-  const [enableShortcodes, setEnableShortcodes] = useState(false);
+  const [copyAsShortcode, setCopyAsShortcode] = useState(false);
   const [filter, setFilter] = useState("");
 
   const dataFiltered = data.filter((d) => {
     const emoji = get(d, `translations.${language}.emoji`, d.emoji);
-    const title = get(d, `translations.${language}.title`, d.title);
     const description = get(
       d,
       `translations.${language}.description`,
@@ -30,7 +29,6 @@ const Main = () => {
     );
     return (
       emoji.includes(filter) ||
-      title.toLowerCase().includes(filter.toLowerCase()) ||
       description.toLowerCase().includes(filter.toLowerCase())
     );
   });
@@ -39,12 +37,12 @@ const Main = () => {
     <Box component={"main"} className={styles.main}>
       <Group justify="flex-end" mb={8}>
         <Switch
-          checked={enableShortcodes}
-          onChange={(v) => setEnableShortcodes(v.currentTarget.checked)}
+          checked={copyAsShortcode}
+          onChange={(v) => setCopyAsShortcode(v.currentTarget.checked)}
           size="md"
           onLabel="ON"
           offLabel="OFF"
-          label="Shortcodes"
+          label="Copy as Shortcode"
           labelPosition={"left"}
         />
         <LanguagesSelect
@@ -66,7 +64,7 @@ const Main = () => {
             {dataFiltered.map((d) => (
               <Emoji
                 key={d.id}
-                showShortcode={enableShortcodes}
+                copyAsShortcode={copyAsShortcode}
                 language={language}
                 {...d}
               />

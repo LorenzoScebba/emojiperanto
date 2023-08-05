@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "idk",
   emoji: "🤷‍♂️",
-  title: ":man_shrugging:",
   description: "I don't know what is going on.",
   translations: {
     it: {

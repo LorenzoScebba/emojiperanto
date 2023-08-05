@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "payme",
   emoji: "💸🔧",
-  title: ":money_with_wings: :wrench:",
   description: "Pay me and I'll fix the issue.",
   translations: {
     it: {

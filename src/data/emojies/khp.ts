@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "khp",
   emoji: "🙏🥳☠️🙎💩",
-  title: ":pray: :partying_face: :skull_and_crossbones: :person_bowing: :poop:",
   description:
     "Please, I would be so happy if you could kill that human piece of shit",
   translations: {

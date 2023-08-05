@@ -3,7 +3,7 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "GoDHeLpMePlS",
   emoji: "🙏🆘",
-  title: ":pray: :sos:",
+
   description: "God, I need some help",
   translations: {
     it: {

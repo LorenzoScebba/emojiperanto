@@ -3,20 +3,25 @@ import { Box, CopyButton } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import get from "lodash.get";
 import { IEmoji } from "../../data/emojis.ts";
+import uEmojiParser from "universal-emoji-parser";
 
 interface EmojiProps extends IEmoji {
-  showShortcode?: boolean;
+  copyAsShortcode?: boolean;
   language: string;
 }
 
 const Emoji = (props: EmojiProps) => {
   const emoji = get(props, `translations.${props.language}.emoji`, props.emoji);
-  const title = get(props, `translations.${props.language}.title`, props.title);
   const description = get(
     props,
     `translations.${props.language}.description`,
     props.description,
   );
+
+  const shortCode = uEmojiParser
+    .parse(emoji, { parseToShortcode: true, parseToHtml: false })
+    .replace(/::/g, ": :")
+    .replace(/[\u200B-\u200D\uFEFF]/g, " ");
 
   const copyAndShowNotification = (copy: () => void) => {
     copy();
@@ -34,7 +39,7 @@ const Emoji = (props: EmojiProps) => {
 
   return (
     <Box className={styles.emoji}>
-      <CopyButton value={emoji}>
+      <CopyButton value={props.copyAsShortcode ? shortCode : emoji}>
         {({ copy }) => (
           <Box
             onClick={() => copyAndShowNotification(copy)}
@@ -45,7 +50,6 @@ const Emoji = (props: EmojiProps) => {
         )}
       </CopyButton>
       <Box className={styles.texts}>
-        {props.showShortcode && <Box className={styles.title}>{title}</Box>}
         <Box className={styles.description}>{description}</Box>
       </Box>
     </Box>

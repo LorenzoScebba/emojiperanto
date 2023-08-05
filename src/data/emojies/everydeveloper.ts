@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "every_developer_ever",
   emoji: "🚫🐛✨",
-  title: ":no_entry_sign: :bug: :sparkles:",
   description: "It's not a bug, it's a feature",
   translations: {
     it: {
