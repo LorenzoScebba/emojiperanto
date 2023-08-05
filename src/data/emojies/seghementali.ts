@@ -3,12 +3,10 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "seghementali",
   emoji: "🧠🤸",
-  title: ":brain: :person_doing_cartwheel:",
   description: "That's mental gymnastics.",
   translations: {
     it: {
       emoji: "✊💦🧠",
-      title: ":fist: :sweat_drops: :brain:",
       description: "Che seghe mentali",
     },
     de: {
@@ -22,12 +20,10 @@ export default {
     },
     it_ts: {
       emoji: "✊💦🧠",
-      title: ":fist: :sweat_drops: :brain:",
       description: "Che paturnie",
     },
     it_bg: {
       emoji: "✊💦🧠",
-      title: ":fist: :sweat_drops: :brain:",
       description: "Che ménade",
     },
     meow: {

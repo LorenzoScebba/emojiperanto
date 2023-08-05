@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "shit code",
   emoji: "✂️👐",
-  title: ":scissors: :open_hands:",
   description: "I will cut your fingers",
   translations: {
     it: {

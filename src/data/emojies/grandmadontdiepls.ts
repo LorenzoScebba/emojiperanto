@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "grandmadontdiepls",
   emoji: "🙏💀👵⌚",
-  title: ":pray: :skull: :older_woman: :watch:",
   description: "I hope my grandmother will not kick the bucket anytime soon",
   translations: {
     it: {
@@ -28,7 +27,6 @@ export default {
     },
     meow: {
       emoji: "🙏💀😿⌚",
-      title: ":pray: :skull: :crying_cat_face: :watch:",
       description: "Meow prrr hiiis mrrr mreow",
     },
   },

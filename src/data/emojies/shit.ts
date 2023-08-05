@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "shit",
   emoji: "💩",
-  title: ":poo:",
   description: "Wtf is this shit?!",
   translations: {
     it: {

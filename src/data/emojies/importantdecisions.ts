@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "importantdecisions",
   emoji: "🙋⬆️👉⬇️❔",
-  title: ":raising_hand: :arrow_up: :point_right: :arrow_down: :question:",
   description: "I'll be top, you'll be bottom?",
   translations: {
     it: {
@@ -26,7 +25,6 @@ export default {
     },
     meow: {
       emoji: "🐱⬆️👉⬇️❔",
-      title: ":cat: :arrow_up: :point_right: :arrow_down: :question:",
       description: "Meow prrr, meow mrrr?",
     },
   },

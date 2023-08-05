@@ -3,7 +3,6 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "done",
   emoji: "✔️",
-  title: ":check_mark:",
   description: "Marking it as done.",
   translations: {
     it: {
