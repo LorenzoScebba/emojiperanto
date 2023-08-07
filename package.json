@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mantine/core": "^7.0.0-alpha.20",
-    "@mantine/hooks": "^7.0.0-alpha.20",
-    "@mantine/notifications": "^7.0.0-alpha.20",
+    "@mantine/core": "^7.0.0-alpha.21",
+    "@mantine/hooks": "^7.0.0-alpha.21",
+    "@mantine/notifications": "^7.0.0-alpha.21",
     "@tabler/icons-react": "^2.30.0",
     "country-flags-svg": "^2.0.0-beta.1",
     "lodash.get": "^4.4.2",
