@@ -3,7 +3,7 @@ import { IEmoji } from "../emojis.ts";
 export default {
   id: "christians w",
   emoji: "💁👜😇❤️",
-  description: "I cawwy god in my heawt, nya~! nychu~!",
+  description: "I carry god in my heart.",
   translations: {
     it: {
       emoji: "🥅♂️😇❤️",
@@ -29,5 +29,8 @@ export default {
       emoji: "😽😇❤️",
       description: "Prrr meow - prrrt",
     },
+    kawaii: {
+      description: "I cawwy god in my heawt, nya~! nychu~!",
+    }
   },
 } as IEmoji;
