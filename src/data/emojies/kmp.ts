@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "kmp",
-  emoji: "🗡🙏",
+  emoji: ["🗡🙏"],
   description: "Kill me please",
   translations: {
     it: {

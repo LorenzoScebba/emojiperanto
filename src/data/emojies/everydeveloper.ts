@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "every_developer_ever",
-  emoji: "🚫🐛✨",
+  emoji: ["🚫🐛✨"],
   description: "It's not a bug, it's a feature",
   translations: {
     it: {

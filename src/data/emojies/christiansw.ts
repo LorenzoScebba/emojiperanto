@@ -2,11 +2,11 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "christians w",
-  emoji: "💁👜😇❤️",
+  emoji: ["💁👜😇❤️"],
   description: "I carry god in my heart.",
   translations: {
     it: {
-      emoji: "🥅♂️😇❤️",
+      emoji: ["🥅♂️😇❤️"],
       description: "Porto dio nel cuore",
     },
     de: {
@@ -19,14 +19,14 @@ export default {
       description: "Llevo a Dios en mi corazón.",
     },
     it_ts: {
-      emoji: "😇♾️💁",
+      emoji: ["😇♾️💁"],
       description: "Al signúr l'è sempre cun me",
     },
     it_bg: {
       description: "Pörte ol Signùr on del cör",
     },
     meow: {
-      emoji: "😽😇❤️",
+      emoji: ["😽😇❤️"],
       description: "Prrr meow - prrrt",
     },
     kawaii: {

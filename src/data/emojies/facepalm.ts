@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "facepalm",
-  emoji: "🤦",
+  emoji: ["🤦"],
   description: "What a terrible failure.",
   translations: {
     it: {

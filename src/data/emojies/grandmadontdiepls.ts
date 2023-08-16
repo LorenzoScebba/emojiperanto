@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "grandmadontdiepls",
-  emoji: "🙏💀👵⌚",
+  emoji: ["🙏💀👵⌚"],
   description: "I hope my grandmother will not kick the bucket anytime soon",
   translations: {
     it: {
@@ -26,7 +26,7 @@ export default {
       description: "A spère la ma crepè mia la nóna tra póch",
     },
     meow: {
-      emoji: "🙏💀😿⌚",
+      emoji: ["🙏💀😿⌚"],
       description: "Meow prrr hiiis mrrr mreow",
     },
     kawaii: {

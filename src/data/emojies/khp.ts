@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "khp",
-  emoji: "🙏🥳☠️🙎💩",
+  emoji: ["🙏🥳☠️🙎💩"],
   description:
     "Please, I would be so happy if you could kill that human piece of shit",
   translations: {
@@ -30,7 +30,7 @@ export default {
         "Per piassér, a sàrés sé contét se ta podesét cöpá chel töc de merda",
     },
     meow: {
-      emoji: "🙏😻☠️🙀💩",
+      emoji: ["🙏😻☠️🙀💩"],
       description: "Prrr, meow mrrr mreow - meow mrrr hiiiss.",
     },
     kawaii: {

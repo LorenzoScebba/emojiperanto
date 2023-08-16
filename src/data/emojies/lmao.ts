@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "LMAO",
-  emoji: "🤣🍑📤",
+  emoji: ["🤣🍑📤"],
   description: "Laughing my ass off",
   translations: {
     it: {
@@ -24,7 +24,7 @@ export default {
       description: "Grègná de stà mal",
     },
     meow: {
-      emoji: "😹🍑📤",
+      emoji: ["😹🍑📤"],
       description: "Mrrrreow!",
     },
     kawaii: {

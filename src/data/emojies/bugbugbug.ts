@@ -2,11 +2,11 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "bugbugbug",
-  emoji: "🐛😡",
+  emoji: ["🐛😡"],
   description: "There is a bug in the code, fuck sake.",
   translations: {
     it: {
-      emoji: "😡🐛",
+      emoji: ["😡🐛"],
       description: "Ma che cazzo, c'è un bug nel codice.",
     },
     de: {
@@ -22,11 +22,11 @@ export default {
       description: "A ghe stà un guai, cazzo",
     },
     it_bg: {
-      emoji: "🕷️😡",
+      emoji: ["🕷️😡"],
       description: "Al ghé ü piöcc on dèl rebelöt, cáso",
     },
     meow: {
-      emoji: "🕷😾",
+      emoji: ["🕷😾"],
       description: "MEOW PRRR meow, mrrr meow.",
     },
     kawaii: {

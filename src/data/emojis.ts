@@ -3,11 +3,11 @@ import { EMOJIPERANTO_LANGS, SupportedLanguages } from "./langs.ts";
 
 export interface IEmoji {
   id: string;
-  emoji: string;
+  emoji: string[];
   description: string;
   translations?: {
     [key in SupportedLanguages]: {
-      emoji?: string;
+      emoji?: string[];
       description?: string;
     };
   };

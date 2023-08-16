@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "payme",
-  emoji: "💸🔧",
+  emoji: ["💸🔧"],
   description: "Pay me and I'll fix the issue.",
   translations: {
     it: {

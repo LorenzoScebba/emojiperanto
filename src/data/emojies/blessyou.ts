@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "blessyou",
-  emoji: "🌬️❔",
+  emoji: ["🌬️❔"],
   description: "Bless you, I guess.",
   translations: {
     it: {

@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "done",
-  emoji: "✔️",
+  emoji: ["✔️"],
   description: "Marking it as done.",
   translations: {
     it: {

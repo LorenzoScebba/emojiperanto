@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "idk",
-  emoji: "🤷‍♂️",
+  emoji: ["🤷‍♂️"],
   description: "I don't know what is going on.",
   translations: {
     it: {

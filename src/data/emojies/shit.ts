@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "shit",
-  emoji: "💩",
+  emoji: ["💩"],
   description: "Wtf is this shit?!",
   translations: {
     it: {

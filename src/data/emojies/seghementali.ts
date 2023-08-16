@@ -2,11 +2,11 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "seghementali",
-  emoji: "🧠🤸",
+  emoji: ["🧠🤸"],
   description: "That's mental gymnastics.",
   translations: {
     it: {
-      emoji: "✊💦🧠",
+      emoji: ["✊💦🧠"],
       description: "Che seghe mentali",
     },
     de: {
@@ -19,11 +19,11 @@ export default {
       description: "Eso es gimnasia mental.",
     },
     it_ts: {
-      emoji: "✊💦🧠",
+      emoji: ["✊💦🧠"],
       description: "Che paturnie",
     },
     it_bg: {
-      emoji: "✊💦🧠",
+      emoji: ["✊💦🧠"],
       description: "Che ménade",
     },
     meow: {

@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "goingcrazy",
-  emoji: "🤪",
+  emoji: ["🤪"],
   description: "I'm going crazy",
   translations: {
     it: {

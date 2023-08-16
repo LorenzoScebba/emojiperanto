@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "1,2,3,4,5",
-  emoji: "🔢🥩",
+  emoji: ["🔢🥩"],
   description: "All of this happened in a second",
   translations: {
     it: {

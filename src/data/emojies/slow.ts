@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "slow",
-  emoji: "🥦➕🏃➡️🐌",
+  emoji: ["🥦➕🏃➡️🐌"],
   description: "A vegetable is faster than this.",
   translations: {
     it: {

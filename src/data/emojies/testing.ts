@@ -2,34 +2,34 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "testing",
-  emoji: "👨‍🔧❄️",
+  emoji: ["👨‍🔧❄️"],
   description: "Just testing, please chill",
   translations: {
     it: {
-      emoji: "👨‍🔧🦥",
+      emoji: ["👨‍🔧🦥"],
       description: "Sto testando, calmi tutti",
     },
     de: {
-      emoji: "👨‍🔧🦥",
+      emoji: ["👨‍🔧🦥"],
       description: "Nur ein Test, bitte entspannen",
     },
     fr: {
-      emoji: "👨‍🔧🦥",
+      emoji: ["👨‍🔧🦥"],
       description: "Juste un test, détendez-vous",
     },
     es: {
-      emoji: "👨‍🔧🦥",
+      emoji: ["👨‍🔧🦥"],
       description: "Solo probando, por favor, relájate",
     },
     it_ts: {
-      emoji: "🦥👨‍🔧",
+      emoji: ["🦥👨‍🔧"],
       description: "Ste tranquìì, che provava solamentu",
     },
     it_bg: {
       description: "L'é drè sül a proà, stá bü",
     },
     meow: {
-      emoji: "🐈‍⬛⚾",
+      emoji: ["🐈‍⬛⚾"],
       description: "Meow prr meow - meow!",
     },
     kawaii: {

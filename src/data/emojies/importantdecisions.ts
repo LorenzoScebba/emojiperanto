@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "importantdecisions",
-  emoji: "🙋⬆️👉⬇️❔",
+  emoji: ["🙋⬆️👉⬇️❔"],
   description: "I'll be top, you'll be bottom?",
   translations: {
     it: {
@@ -24,7 +24,7 @@ export default {
       description: "Me süra, te söta?",
     },
     meow: {
-      emoji: "🐱⬆️👉⬇️❔",
+      emoji: ["🐱⬆️👉⬇️❔"],
       description: "Meow prrr, meow mrrr?",
     },
     kawaii: {

@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "shit code",
-  emoji: "✂️👐",
+  emoji: ["✂️👐", "🔪👐", "🗡️👐"],
   description: "I will cut your fingers",
   translations: {
     it: {

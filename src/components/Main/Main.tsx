@@ -28,7 +28,7 @@ const Main = () => {
       d.description,
     );
     return (
-      emoji.includes(filter) ||
+      emoji.some(e => e.includes(filter)) ||
       description.toLowerCase().includes(filter.toLowerCase())
     );
   });

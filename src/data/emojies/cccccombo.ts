@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "ccccombo",
-  emoji: "🎰❕",
+  emoji: ["🎰❕"],
   description: "What a combo!",
   translations: {
     it: {

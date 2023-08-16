@@ -2,7 +2,7 @@ import { IEmoji } from "../emojis.ts";
 
 export default {
   id: "stillblocked",
-  emoji: "🚫❓",
+  emoji: ["🚫❓"],
   description: "Still stuck?",
   translations: {
     it: {
