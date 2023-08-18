@@ -4,9 +4,10 @@ import { notifications } from "@mantine/notifications";
 import get from "lodash.get";
 import { IEmoji } from "../../data/emojis.ts";
 import uEmojiParser from "universal-emoji-parser";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Carousel, CarouselSlide, Embla } from "@mantine/carousel";
 import { useDebouncedState } from "@mantine/hooks";
+import Autoplay from "embla-carousel-autoplay";
 
 interface EmojiProps extends IEmoji {
   copyAsShortcode?: boolean;
@@ -14,6 +15,7 @@ interface EmojiProps extends IEmoji {
 }
 
 const Emoji = (props: EmojiProps) => {
+  const autoplay = useRef(Autoplay({ delay: 2000 }));
   const [currentEmoji, setCurrentEmoji] = useDebouncedState(0, 50);
   const [embla, setEmbla] = useState<Embla | null>(null);
 
@@ -70,16 +72,27 @@ const Emoji = (props: EmojiProps) => {
           if (emoji.length > 1)
             return (
               <Carousel
-                className={styles.emojiIconCarousel}
+                withControls
                 withIndicators
                 getEmblaApi={setEmbla}
                 draggable
+                slideGap={"xs"}
+                plugins={[autoplay.current]}
+                onMouseEnter={autoplay.current.stop}
+                onMouseLeave={autoplay.current.reset}
+                onClick={(ev) => {
+                  if (get(ev, "target.nodeName", "DIV") !== "DIV") return;
+                  copyAndShowNotification(copy);
+                }}
+                classNames={{
+                  root: styles.emojiIconCarousel,
+                  controls: styles.emojiIconCarouselControls,
+                }}
               >
                 {emoji.map((e) => (
                   <CarouselSlide
                     key={e}
                     className={styles.emojiIconCarouselSlide}
-                    onClick={() => copyAndShowNotification(copy)}
                   >
                     {e}
                   </CarouselSlide>
