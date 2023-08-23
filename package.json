@@ -16,7 +16,7 @@
     "@mantine/carousel": "^7.0.0-beta.0",
     "embla-carousel-react": "^7.1.0",
     "embla-carousel-autoplay": "^7.1.0",
-    "@tabler/icons-react": "^2.30.0",
+    "@tabler/icons-react": "^2.32.0",
     "country-flags-svg": "^2.0.0-beta.1",
     "lodash.get": "^4.4.2",
     "react": "^18.2.0",
